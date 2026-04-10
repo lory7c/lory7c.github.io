@@ -17,42 +17,38 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. in Artificial Intelligence at the **Communication University of Zhejiang (CUZ)**, supervised by Dr. Hao Zeng. Since November 2025, I have been serving as a Research Intern at the **Binjiang Institute of Zhejiang University**, supervised by Dr. Meng Han and Dr. Wenpeng Xing. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research focuses on **Trustworthy Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) Faithfulness**. I am particularly interested in mechanistic interpretability and white-box methods for continuous, real-time hallucination detection and alignment in language models.
 
+Check out my full publications and citations on <a href='https://scholar.google.com/citations?user=nmszO0QAAAAJ&hl=en'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" align="top"></a>.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📝 Selected Publications
 
-# 📝 Publications 
+- **Zhe Yu***, Wenpeng Xing*, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han. "DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework." **Accepted to Findings of ACL 2026**. [[OpenReview]](https://openreview.net/pdf?id=v1Tqj4V60R)
+- F. Zhou, C. Chang, Q. Chang, H. Zhang, **Zhe Yu**, W. Liu, J. Li, J. Yang. "Orthogonal salinity and temperature detection via paralleled dual all-fiber interferometers." ***Optics Communications***, 583 (2025): 131688. [[DOI]](https://doi.org/10.1016/j.optcom.2025.131688)
+- **Zhe Yu**, H. Zeng, Y. Zhao, X. Zhang, Z. Wang, Y. Tao, M. Yuan, X. Sun. "Bibliometric analysis of physical education research in China from 2014 to 2024." In ***Proceedings of the 2024 7th International Conference on Educational Technology Management***, ACM, 2025. [[DOI]](https://doi.org/10.1145/3711403.3711421)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# ⏳ Manuscripts Under Review
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **Zhe Yu***, Wenpeng Xing*, Meng Han. "LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment." Under review at **CoLM 2026**. [[arXiv:2604.05358]](https://arxiv.org/abs/2604.05358)
+- **Zhe Yu***, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han. "FORGE: Faithful Output via Risk-Guided Decoding for Retrieval-Memory Conflict in RAG." Under review at **ARR / EMNLP**. [[OpenReview]](https://openreview.net/pdf?id=ibHa8bXlup)
+- **Zhe Yu***, Wenpeng Xing*, Meng Han. "From Retinal Evidence to Safe Decisions: RETINA-SAFE and ECRT for Hallucination Risk Triage in Medical LLMs." Under review at **MICCAI 2026**. [[arXiv:2604.05348]](https://arxiv.org/abs/2604.05348)
+- Zhiguo Ma*, Wenpeng Xing*, **Zhe Yu***, Yourong Chen, Meng Han. "ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution." Under review at ***Blockchain: Research and Applications***.
+- Weiping Yu, Weihan Wang, Mingyuan Yan, Keyang He, **Zhe Yu**, Wenpeng Xing, Liyuan Liu, Meng Han. "Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management." Under review at ***Electronics***.
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+# 📖 Education
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+- *Nov 2025 - Present*, **Binjiang Institute of Zhejiang University**, Hangzhou, China
+  - Research Intern, supervised by Dr. Meng Han and Dr. Wenpeng Xing
+  - Part of the Guangdong Provincial Key R&D Program "Multimodal LLM Safety System Research and Application"
+- *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
+  - Visiting Student
+- *Mar 2024 - Jul 2024*, **Westlake University**, Hangzhou, China 
+  - Visiting Student (Optical Laboratory), supervised by Dr. Ziyang Zhang
+- *2023 - Expected 2027*, **Communication University of Zhejiang**, Hangzhou, China
+  - B.Eng. in Artificial Intelligence, supervised by Dr. Hao Zeng
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+# 📜 Patents
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
-
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- **Zhe Yu**, Wenpeng Xing, Meng Han. *A hallucination detection method based on dual-path internal state forcing logic for retrieval-augmented generation in large language models.* Pending Patent Application No. 202610260408X (Under Review).
