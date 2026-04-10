@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. in Artificial Intelligence at the **Communication University of Zhejiang (CUZ)**, supervised by Dr. Hao Zeng. Since November 2025, I have been serving as a Research Intern at the **Binjiang Institute of Zhejiang University**, supervised by Dr. Meng Han and Dr. Wenpeng Xing. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
+ Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. in Artificial Intelligence at the **Communication University of Zhejiang (CUZ)**, supervised by Dr. Hao Zeng. Since November 2025, I have been serving as a Research Intern at the **Binjiang Institute of Zhejiang University**, supervised by Dr. Meng Han and Dr. Wenpeng Xing. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
+
+📄 **[Download my full CV (English)](/files/CV_Zhe_Yu_EN.pdf) | [获取完整中文简历](/files/CV_Zhe_Yu_CN.pdf)**
 
 My research focuses on **Trustworthy Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) Faithfulness**. I am particularly interested in mechanistic interpretability and white-box methods for continuous, real-time hallucination detection and alignment in language models.
 
