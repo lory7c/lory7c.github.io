@@ -46,6 +46,7 @@ Check out my full publications and citations on <a href='https://scholar.google.
 - *Nov 2025 - Present*, **Binjiang Institute of Zhejiang University**, Hangzhou, China
   - Research Intern, supervised by Dr. Meng Han and Dr. Wenpeng Xing
   - Part of the Guangdong Provincial Key R&D Program "Multimodal LLM Safety System Research and Application"
+  - Part of the National Key R&D Program (Young Scientist Project) "Novel Trust System Based on Blockchain"
 - *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
   - Visiting Student
 - *Mar 2024 - Jul 2024*, **Westlake University**, Hangzhou, China 
