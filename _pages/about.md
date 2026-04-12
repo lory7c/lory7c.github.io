@@ -59,5 +59,5 @@ Check out my full publications and citations on <a href='https://scholar.google.
 - **Zhe Yu**, Wenpeng Xing, Meng Han. *A hallucination detection method based on dual-path internal state forcing logic for retrieval-augmented generation in large language models.* Pending Patent Application No. 202610260408X (Under Review).
 
 <div align="center" style="margin-top: 3em;">
-<a href="https://mapmyvisitors.com/web/1c3up"  title="Visit tracker"><img src="//mapmyvisitors.com/map.png?d=OTJYDY0Z4P1NmL6mTiI0AdLsTFwNyd0S4UN-urz6AAE&cl=ffffff" /></a>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=OTJYDY0Z4P1NmL6mTiI0AdLsTFwNyd0S4UN-urz6AAE&cl=ffffff&w=a"></script>
 </div>
