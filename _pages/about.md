@@ -36,6 +36,7 @@ Check out my full publications and citations on <a href='https://scholar.google.
 # ⏳ Manuscripts Under Review
 
 - **Zhe Yu**, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han. "Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection." Under review at **NeurIPS 2026**. [[PDF]](/files/Knowing_Is_Not_Acting.pdf)
+- **Zhe Yu**, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han. "Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models." Under review at **NeurIPS 2026**. [[PDF]](/files/cot_swap_neurips2026.pdf)
 - **Zhe Yu***, Wenpeng Xing*, Meng Han. "LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment." Under review at **CoLM 2026**. [[arXiv:2604.05358]](https://arxiv.org/abs/2604.05358)
 - **Zhe Yu***, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han. "FORGE: Faithful Output via Risk-Guided Decoding for Retrieval-Memory Conflict in RAG." Under review at **ARR / EMNLP**. [[OpenReview]](https://openreview.net/pdf?id=ibHa8bXlup)
 - **Zhe Yu***, Wenpeng Xing*, Meng Han. "From Retinal Evidence to Safe Decisions: RETINA-SAFE and ECRT for Hallucination Risk Triage in Medical LLMs." Under review at **MICCAI 2026**. [[arXiv:2604.05348]](https://arxiv.org/abs/2604.05348)
