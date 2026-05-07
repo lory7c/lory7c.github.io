@@ -23,7 +23,8 @@ Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. 
 
 📄 **[Download my full CV (English)](/files/CV_Zhe_Yu_EN.pdf) | [获取完整中文简历](/files/CV_Zhe_Yu_CN.pdf)**
 
-My research centers on building **Trustworthy AI**, with a unified storyline spanning from **Large Language Model (LLM) Faithfulness** to **Decentralized Trust Systems**. Specifically, I am deeply interested in mechanistic interpretability and white-box methods for continuous, real-time hallucination detection in Generative AI. Beyond the model level, I also actively explore the integration of **Blockchain and Zero-Knowledge Proofs** to establish verifiability, robust data management, and privacy-preserving architectures for safe AI deployment constraints.
+My research spans **mechanistic interpretability**, **agentic AI safety**, and **decentralized trust systems**. Recently, I have been studying **representation–action dissociation** — the phenomenon where language models internally represent source-role conflicts yet fail to route that information into action — across chain-of-thought, tool-use, and inter-agent communication channels. In parallel, I work on white-box hallucination detection for retrieval-augmented generation, and on integrating **blockchain and zero-knowledge proofs** for verifiable, privacy-preserving AI deployment.
+
 
 Check out my full publications and citations on <a href='https://scholar.google.com/citations?user=nmszO0QAAAAJ&hl=en'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" align="top"></a>.
 
