@@ -29,7 +29,7 @@ Check out my full publications and citations on <a href='https://scholar.google.
 
 # 📝 Selected Publications
 
-- **Zhe Yu***, Wenpeng Xing*, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han. "DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework." **Accepted to Findings of ACL 2026**. [[OpenReview]](https://openreview.net/pdf?id=v1Tqj4V60R)
+- **Zhe Yu***, Wenpeng Xing*, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han. "DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework." **Accepted to Findings of ACL 2026**. [[PDF]](/files/disfcr.pdf)
 - F. Zhou, C. Chang, Q. Chang, H. Zhang, **Zhe Yu**, W. Liu, J. Li, J. Yang. "Orthogonal salinity and temperature detection via paralleled dual all-fiber interferometers." ***Optics Communications***, 583 (2025): 131688. [[DOI]](https://doi.org/10.1016/j.optcom.2025.131688)
 - **Zhe Yu**, H. Zeng, Y. Zhao, X. Zhang, Z. Wang, Y. Tao, M. Yuan, X. Sun. "Bibliometric analysis of physical education research in China from 2014 to 2024." In ***Proceedings of the 2024 7th International Conference on Educational Technology Management***, ACM, 2025. [[DOI]](https://doi.org/10.1145/3711403.3711421)
 
@@ -58,3 +58,7 @@ Check out my full publications and citations on <a href='https://scholar.google.
 # 📜 Patents
 
 - **Zhe Yu**, Wenpeng Xing, Meng Han. *A hallucination detection method based on dual-path internal state forcing logic for retrieval-augmented generation in large language models.* Pending Patent Application No. 202610260408X (Under Review).
+
+<div align="center" style="margin-top: 3em;">
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=OTJYDY0Z4P1NmL6mTiI0AdLsTFwNyd0S4UN-urz6AAE&cl=ffffff&w=a"></script>
+</div>
