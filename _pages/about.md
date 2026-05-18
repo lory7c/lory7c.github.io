@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. in Artificial Intelligence at the **Communication University of Zhejiang (CUZ)**, supervised by Dr. Hao Zeng. Since November 2025, I have been serving as a Research Intern at the **Binjiang Institute of Zhejiang University**, supervised by Dr. Meng Han and Dr. Wenpeng Xing. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
+Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. in Artificial Intelligence at the **Communication University of Zhejiang (CUZ)**, supervised by Dr. Hao Zeng. Since November 2025, I have been serving as a Research Intern at the **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** (IFRC Lab), supervised by Dr. Meng Han and Dr. Wenpeng Xing. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
 
 > 📢 **Seeking Opportunities:** I am actively looking for **Research Assistant (RA)** positions (on-site or remote) and seeking **Fall 2027 PhD** opportunities. Please feel free to drop me an [email](mailto:zyu@zju-if.com) if you are interested!
 
@@ -46,7 +46,7 @@ Check out my full publications and citations on <a href='https://scholar.google.
 
 # 📖 Education
 
-- *Nov 2025 - Present*, **Binjiang Institute of Zhejiang University**, Hangzhou, China
+- *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
   - Research Intern, supervised by Dr. Meng Han and Dr. Wenpeng Xing
   - Part of the Guangdong Provincial Key R&D Program "Multimodal LLM Safety System Research and Application"
   - Part of the National Key R&D Program (Young Scientist Project) "Novel Trust System Based on Blockchain"
