@@ -39,10 +39,15 @@ Check out my full publications and citations on <a href='https://scholar.google.
 - **Zhe Yu**, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han. "Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection." Under review at **NeurIPS 2026**. [[PDF]](/files/Knowing_Is_Not_Acting.pdf)
 - **Zhe Yu**, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han. "Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models." Under review at **NeurIPS 2026**. [[PDF]](/files/cot_swap_neurips2026.pdf)
 - **Zhe Yu***, Wenpeng Xing*, Meng Han. "LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment." Under review at **CoLM 2026**. [[arXiv:2604.05358]](https://arxiv.org/abs/2604.05358)
-- **Zhe Yu***, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han. "FORGE: Faithful Output via Risk-Guided Decoding for Retrieval-Memory Conflict in RAG." Under review at **ARR / EMNLP**. [[OpenReview]](https://openreview.net/pdf?id=ibHa8bXlup)
+- **Zhe Yu**, Wenpeng Xing, Yunzhao Wei, Hongzhi Wang, Xuyang Teng, Meng Han. "Composition Collapse: Stable Factual Knowledge Does Not Imply Compositional Reasoning." Under review at **ARR / EMNLP**. [[PDF]](/files/composition_collapse.pdf)
+- **Zhe Yu**, Wenpeng Xing, Chen Ye, Xuyang Teng, Bo Yang, Changting Lin, Meng Han. "Detecting Is Not Resolving: The Monitoring–Control Gap in Retrieval-Augmented LLMs." Under review at **ARR / EMNLP**. [[PDF]](/files/detecting_is_not_resolving.pdf)
+- **Zhe Yu**, Wenpeng Xing, Bo Yang, Chen Ye, Gaolei Li, Yunzhao Wei, Meng Han. "The Attribution Blind Spot: Language Models Cannot Distinguish Reading from Remembering." Under review at **ARR / EMNLP**. [[PDF]](/files/attribution_blind_spot.pdf)
+- **Zhe Yu**, Wenpeng Xing, Gaolei Li, Shuguang Xiong, Hongzhi Wang, Xuyang Teng, Meng Han. "Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control." Under review at **ARR / EMNLP**. [[PDF]](/files/cordon_mas.pdf)
+- **Zhe Yu***, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han. "FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG." Under review at **ARR / EMNLP**. [[PDF]](/files/fides.pdf)
+- Zhenhua Xu, Qichen Liu, Zhebo Wang, **Zhe Yu**, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han. "Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition." Under review at **ARR / EMNLP**.
 - **Zhe Yu***, Wenpeng Xing*, Meng Han. "From Retinal Evidence to Safe Decisions: RETINA-SAFE and ECRT for Hallucination Risk Triage in Medical LLMs." Under review at **MICCAI 2026**. [[arXiv:2604.05348]](https://arxiv.org/abs/2604.05348)
 - Zhiguo Ma*, Wenpeng Xing*, **Zhe Yu***, Yourong Chen, Meng Han. "ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution." Under review at ***Blockchain: Research and Applications***.
-- Weiping Yu, Weihan Wang, Mingyuan Yan, Keyang He, **Zhe Yu**, Wenpeng Xing, Liyuan Liu, Meng Han. "Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management." Under review at ***Electronics***.
+- Weiping Yu, Weihan Wang, Mingyuan Yan, Keyang He, **Zhe Yu**, Wenpeng Xing, Liyuan Liu, Meng Han. "Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management." Accepted to ***Electronics*** (MDPI).
 
 # 📖 Education
 
