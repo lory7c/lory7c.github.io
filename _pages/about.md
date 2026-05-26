@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
 Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. in Artificial Intelligence at the **Communication University of Zhejiang (CUZ)**, supervised by Dr. Hao Zeng. Since November 2025, I have been serving as a Research Intern at the **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), supervised by Dr. Meng Han and Dr. Wenpeng Xing. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
@@ -23,10 +16,7 @@ Hi, I am Zhe Yu (俞哲), currently an undergraduate student pursuing my B.Eng. 
 
 📄 **[Download my full CV (English)](/files/CV_Zhe_Yu_EN.pdf) | [获取完整中文简历](/files/CV_Zhe_Yu_CN.pdf)**
 
-My research spans **mechanistic interpretability**, **agentic AI safety**, and **decentralized trust systems**. Recently, I have been studying **representation–action dissociation** — the phenomenon where language models internally represent source-role conflicts yet fail to route that information into action — across chain-of-thought, tool-use, and inter-agent communication channels. In parallel, I work on white-box hallucination detection for retrieval-augmented generation, and on integrating **blockchain and zero-knowledge proofs** for verifiable, privacy-preserving AI deployment.
-
-
-Check out my full publications and citations on <a href='https://scholar.google.com/citations?user=nmszO0QAAAAJ&hl=en'>Google Scholar <img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations" align="top"></a>.
+My research centers on **trustworthy language models** across three interconnected threads. First, I study the **internal mechanisms of knowledge grounding** — how parametric memory and retrieved evidence interact during generation, and how to detect failures like hallucinations, memory hijacking, and compositional reasoning collapse through white-box monitoring and mechanistic analysis. Second, I work on **representation–action dissociation** in reasoning and agentic systems — probing when and why models encode conflict information internally yet fail to route it into downstream decisions. Third, I explore **verifiable model ownership and decentralized trust** — combining fingerprinting, blockchain, and zero-knowledge proofs to build scalable, privacy-preserving attribution and deployment frameworks.
 
 # 📝 Selected Publications
 
