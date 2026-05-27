@@ -20,7 +20,7 @@ My research centers on **trustworthy language models** across three interconnect
 
 # 📝 Selected Publications
 
-- **Zhe Yu***, Wenpeng Xing*, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han. "DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework." **ACL Findings 2026**, now resubmitted to **ARR / EMNLP**. [[PDF]](/files/disfcr.pdf)
+- **Zhe Yu***, Wenpeng Xing*, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han. "DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework." Received acceptance at **ACL Findings 2026**; resubmitted to **ARR / EMNLP**. [[PDF]](/files/disfcr.pdf)
 - Weiping Yu, Weihan Wang, Mingyuan Yan, Keyang He, **Zhe Yu**, Wenpeng Xing, Liyuan Liu, Meng Han. "Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management." ***Electronics*** (MDPI).
 - F. Zhou, C. Chang, Q. Chang, H. Zhang, **Zhe Yu**, W. Liu, J. Li, J. Yang. "Orthogonal salinity and temperature detection via paralleled dual all-fiber interferometers." ***Optics Communications***, 583 (2025): 131688. [[DOI]](https://doi.org/10.1016/j.optcom.2025.131688)
 - **Zhe Yu**, H. Zeng, Y. Zhao, X. Zhang, Z. Wang, Y. Tao, M. Yuan, X. Sun. "Bibliometric analysis of physical education research in China from 2014 to 2024." In ***Proceedings of the 2024 7th International Conference on Educational Technology Management***, ACM, 2025. [[DOI]](https://doi.org/10.1145/3711403.3711421)
