@@ -112,54 +112,51 @@ h1:before, .anchor:before {
    Paper Card Styles
    ========================================================================== */
 
-.paper-section {
-    margin-bottom: 2.5em;
-}
-
-.paper-section-title {
-    font-size: 1.15em;
-    font-weight: 600;
-    color: #4a4a4a;
-    margin-bottom: 0.8em;
-    padding-bottom: 0.3em;
-    border-bottom: 2px solid #e8e8e8;
-    display: inline-block;
+.paper-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2em;
 }
 
 .paper-card {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
-    padding: 1em 0;
-    border-bottom: 1px solid #f0f0f0;
-    gap: 1em;
+    padding: 1em;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background: #fff;
+    gap: 0.8em;
+    height: 100%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    transition: box-shadow 0.15s ease;
 
-    &:last-child {
-        border-bottom: none;
+    &:hover {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 }
 
 .paper-thumb {
-    width: 68px;
-    height: 68px;
-    min-width: 68px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    min-height: 100px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 0.7em;
+    font-size: 0.9em;
     color: #fff;
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.03em;
     word-break: break-word;
-    padding: 4px;
+    padding: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.12);
     transition: transform 0.15s ease;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
 }
 
@@ -254,15 +251,17 @@ h1:before, .anchor:before {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+    .paper-grid {
+        grid-template-columns: 1fr;
+    }
     .paper-card {
-        gap: 0.7em;
+        padding: 0.8em;
     }
     .paper-thumb {
-        width: 56px;
-        height: 56px;
-        min-width: 56px;
-        font-size: 0.65em;
+        height: 80px;
+        min-height: 80px;
+        font-size: 0.8em;
     }
     .paper-title {
         font-size: 0.95em;

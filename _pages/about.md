@@ -20,6 +20,7 @@ My research centers on **trustworthy language models** across three interconnect
 
 # 📚 Research Papers
 
+<div class="paper-grid">
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">DISF</div>
 <div class="paper-content">
@@ -212,6 +213,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 </div>
 
+</div>
 # 📖 Education
 
 - *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
