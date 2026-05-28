@@ -127,7 +127,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">FV</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #bf360c, #e65100);">FV</div>
 <div class="paper-content">
 <div class="paper-title">Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition</div>
 <div class="paper-authors">Zhenhua Xu, Qichen Liu, Zhebo Wang, <strong>Zhe Yu</strong>, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han</div>
@@ -165,7 +165,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">ZK-FPE</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #1a237e, #283593);">ZK-FPE</div>
 <div class="paper-content">
 <div class="paper-title">ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution</div>
 <div class="paper-authors">Zhiguo Ma*, Wenpeng Xing*, <strong>Zhe Yu*</strong>, Yourong Chen, Meng Han</div>
@@ -177,7 +177,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">IoT</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #006064, #00838f);">IoT</div>
 <div class="paper-content">
 <div class="paper-title">Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management</div>
 <div class="paper-authors">Weiping Yu, Weihan Wang, Mingyuan Yan, Keyang He, <strong>Zhe Yu</strong>, Wenpeng Xing, Liyuan Liu, Meng Han</div>
@@ -189,7 +189,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">Optics</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #4a148c, #6a1b9a);">Optics</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://doi.org/10.1016/j.optcom.2025.131688">Orthogonal salinity and temperature detection via paralleled dual all-fiber interferometers</a></div>
 <div class="paper-authors">F. Zhou, C. Chang, Q. Chang, H. Zhang, <strong>Zhe Yu</strong>, W. Liu, J. Li, J. Yang</div>
@@ -202,7 +202,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">Biblio</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #5d4037, #795548);">Biblio</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://doi.org/10.1145/3711403.3711421">Bibliometric analysis of physical education research in China from 2014 to 2024</a></div>
 <div class="paper-authors"><strong>Zhe Yu</strong>, H. Zeng, Y. Zhao, X. Zhang, Z. Wang, Y. Tao, M. Yuan, X. Sun</div>
