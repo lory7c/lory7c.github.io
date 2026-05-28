@@ -21,6 +21,7 @@ My research centers on **trustworthy language models** across three interconnect
 # 📚 Research Papers
 
 <div class="paper-grid">
+
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">DISF</div>
 <div class="paper-content">
@@ -35,14 +36,27 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">LA</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">KINA</div>
 <div class="paper-content">
-<div class="paper-title"><a href="https://arxiv.org/abs/2604.05358">LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Meng Han</div>
-<div class="paper-desc">A real-time white-box auditor that measures Mahalanobis distance between residual-stream activations and evidence representations to judge RAG faithfulness at generation time.</div>
+<div class="paper-title"><a href="/files/Knowing_Is_Not_Acting.pdf">Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection</a></div>
+<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han</div>
+<div class="paper-desc">Shows that indirect prompt injection failure is not absent source recognition but representation–action dissociation: source role is linearly decodable early, yet tool decisions become causally controllable only in a late commitment band.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at CoLM 2026</span>
-<span class="paper-links"><a href="https://arxiv.org/abs/2604.05358">[arXiv]</a></span>
+<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
+<span class="paper-links"><a href="/files/Knowing_Is_Not_Acting.pdf">[PDF]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
+<div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">WT</div>
+<div class="paper-content">
+<div class="paper-title"><a href="/files/cot_swap_neurips2026.pdf">Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models</a></div>
+<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han</div>
+<div class="paper-desc">Exposes a structural source-override vulnerability in reasoning-tuned models: when the assistant-side &lt;think&gt; block contains a CoT for a different question, models answer the wrong question in the majority of cases.</div>
+<div class="paper-meta">
+<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
+<span class="paper-links"><a href="/files/cot_swap_neurips2026.pdf">[PDF]</a></span>
 </div>
 </div>
 </div>
@@ -113,27 +127,26 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">KINA</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">FV</div>
 <div class="paper-content">
-<div class="paper-title"><a href="/files/Knowing_Is_Not_Acting.pdf">Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection</a></div>
-<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han</div>
-<div class="paper-desc">Shows that indirect prompt injection failure is not absent source recognition but representation–action dissociation: source role is linearly decodable early, yet tool decisions become causally controllable only in a late commitment band.</div>
+<div class="paper-title">Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition</div>
+<div class="paper-authors">Zhenhua Xu, Qichen Liu, Zhebo Wang, <strong>Zhe Yu</strong>, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han</div>
+<div class="paper-desc">Enables scalable and efficient model fingerprint transfer via vector addition for ownership verification.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
-<span class="paper-links"><a href="/files/Knowing_Is_Not_Acting.pdf">[PDF]</a></span>
+<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
 </div>
 </div>
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">WT</div>
+<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">LA</div>
 <div class="paper-content">
-<div class="paper-title"><a href="/files/cot_swap_neurips2026.pdf">Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models</a></div>
-<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han</div>
-<div class="paper-desc">Exposes a structural source-override vulnerability in reasoning-tuned models: when the assistant-side &lt;think&gt; block contains a CoT for a different question, models answer the wrong question in the majority of cases.</div>
+<div class="paper-title"><a href="https://arxiv.org/abs/2604.05358">LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment</a></div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Meng Han</div>
+<div class="paper-desc">A real-time white-box auditor that measures Mahalanobis distance between residual-stream activations and evidence representations to judge RAG faithfulness at generation time.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
-<span class="paper-links"><a href="/files/cot_swap_neurips2026.pdf">[PDF]</a></span>
+<span class="paper-badge under-review">Under review at CoLM 2026</span>
+<span class="paper-links"><a href="https://arxiv.org/abs/2604.05358">[arXiv]</a></span>
 </div>
 </div>
 </div>
@@ -147,18 +160,6 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at MICCAI 2026</span>
 <span class="paper-links"><a href="https://arxiv.org/abs/2604.05348">[arXiv]</a></span>
-</div>
-</div>
-</div>
-
-<div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">FV</div>
-<div class="paper-content">
-<div class="paper-title">Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition</div>
-<div class="paper-authors">Zhenhua Xu, Qichen Liu, Zhebo Wang, <strong>Zhe Yu</strong>, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han</div>
-<div class="paper-desc">Enables scalable and efficient model fingerprint transfer via vector addition for ownership verification.</div>
-<div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
 </div>
 </div>
 </div>
@@ -214,6 +215,7 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 
 </div>
+
 # 📖 Education
 
 - *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
