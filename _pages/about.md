@@ -29,7 +29,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han</div>
 <div class="paper-desc">A dual-path internal-state forcing framework that detects hallucinations in RAG by leveraging white-box activation signals.</div>
 <div class="paper-meta">
-<span class="paper-badge accepted">ACL Findings 2026</span>
+<span class="paper-badge accepted">Accepted at ACL 2026</span>
 <span class="paper-links"><a href="/files/disfcr.pdf">[PDF]</a></span>
 </div>
 </div>
