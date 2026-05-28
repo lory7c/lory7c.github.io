@@ -107,3 +107,167 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* ==========================================================================
+   Paper Card Styles
+   ========================================================================== */
+
+.paper-section {
+    margin-bottom: 2.5em;
+}
+
+.paper-section-title {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #e8e8e8;
+    display: inline-block;
+}
+
+.paper-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1em 0;
+    border-bottom: 1px solid #f0f0f0;
+    gap: 1em;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.paper-thumb {
+    width: 68px;
+    height: 68px;
+    min-width: 68px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.7em;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    word-break: break-word;
+    padding: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.12);
+    transition: transform 0.15s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.paper-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.paper-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    margin-bottom: 0.15em;
+    line-height: 1.35;
+
+    a {
+        color: #224b8d;
+        text-decoration: none;
+
+        &:hover {
+            color: #00369f;
+            text-decoration: underline;
+        }
+    }
+}
+
+.paper-authors {
+    font-size: 0.82em;
+    color: #777;
+    margin-bottom: 0.25em;
+    line-height: 1.4;
+}
+
+.paper-desc {
+    font-size: 0.88em;
+    color: #555;
+    line-height: 1.45;
+    margin-bottom: 0.35em;
+}
+
+.paper-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 0.82em;
+}
+
+.paper-badge {
+    display: inline-block;
+    padding: 0.12em 0.55em;
+    border-radius: 4px;
+    font-size: 0.78em;
+    font-weight: 500;
+    white-space: nowrap;
+
+    &.accepted {
+        background: #e8f5e9;
+        color: #2e7d32;
+        border: 1px solid #c8e6c9;
+    }
+
+    &.under-review {
+        background: #fff8e1;
+        color: #f57f17;
+        border: 1px solid #ffecb3;
+    }
+
+    &.published {
+        background: #e3f2fd;
+        color: #1565c0;
+        border: 1px solid #bbdefb;
+    }
+
+    &.resubmitted {
+        background: #fce4ec;
+        color: #c2185b;
+        border: 1px solid #f8bbd9;
+    }
+}
+
+.paper-links {
+    a {
+        margin-right: 0.5em;
+        color: #224b8d;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+            color: #00369f;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .paper-card {
+        gap: 0.7em;
+    }
+    .paper-thumb {
+        width: 56px;
+        height: 56px;
+        min-width: 56px;
+        font-size: 0.65em;
+    }
+    .paper-title {
+        font-size: 0.95em;
+    }
+    .paper-desc {
+        font-size: 0.82em;
+    }
+}
