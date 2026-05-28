@@ -20,9 +20,6 @@ My research centers on **trustworthy language models** across three interconnect
 
 # 📚 Research Papers
 
-<div class="paper-section">
-<div class="paper-section-title">🛡️ RAG Trustworthiness & Hallucination Detection</div>
-
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">DISF</div>
 <div class="paper-content">
@@ -113,10 +110,6 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 </div>
 </div>
-</div>
-
-<div class="paper-section">
-<div class="paper-section-title">🧠 Representation–Action Dissociation</div>
 
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">KINA</div>
@@ -143,10 +136,6 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 </div>
 </div>
-</div>
-
-<div class="paper-section">
-<div class="paper-section-title">🏥 Medical LLM Safety</div>
 
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #2d7d5e, #4a9e78);">RETINA</div>
@@ -160,10 +149,6 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 </div>
 </div>
-</div>
-
-<div class="paper-section">
-<div class="paper-section-title">🔐 Model Ownership & Decentralized Trust</div>
 
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">FV</div>
@@ -188,10 +173,6 @@ My research centers on **trustworthy language models** across three interconnect
 </div>
 </div>
 </div>
-</div>
-
-<div class="paper-section">
-<div class="paper-section-title">📰 Other Publications</div>
 
 <div class="paper-card">
 <div class="paper-thumb" style="background: linear-gradient(135deg, #6c757d, #8d959d);">IoT</div>
@@ -227,7 +208,6 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-meta">
 <span class="paper-badge published">ACM ICETM, 2025</span>
 <span class="paper-links"><a href="https://doi.org/10.1145/3711403.3711421">[DOI]</a></span>
-</div>
 </div>
 </div>
 </div>
