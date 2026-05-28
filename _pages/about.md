@@ -26,7 +26,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">DISF</div>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/disfcr.pdf">DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Wenjie Luo, Weize Xu, Lingtong Huang, Yourong Chen, Changting Lin, Meng Han</div>
 <div class="paper-desc">A dual-path internal-state forcing framework that detects hallucinations in RAG by leveraging white-box activation signals.</div>
 <div class="paper-meta">
 <span class="paper-badge accepted">Accepted at ACL 2026</span>
@@ -65,7 +65,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">ABS</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.26778">The Attribution Blind Spot: Detecting When Language Models Rely on Memory Rather Than Retrieved Context</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Bo Yang, Chen Ye, Gaolei Li, Yunzhao Wei, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Bo Yang, Chen Ye, Gaolei Li, Yunzhao Wei, Meng Han</div>
 <div class="paper-desc">Formalizes the attribution blind spot — when parametric memory and retrieved context produce identical surface text — and proposes Computational Reality Monitoring (CRM) to detect internal trajectory divergence.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at ARR / EMNLP</span>
@@ -78,7 +78,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">FIDES</div>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/fides.pdf">FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
 <div class="paper-desc">Reveals token-level conflict concentration in retrieval-memory conflict and proposes a training-free decoder that fuses three complementary internal signals for per-token selective intervention.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at ARR / EMNLP</span>
@@ -91,7 +91,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">DINR</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.27157">Detecting Is Not Resolving: The Monitoring–Control Gap in Retrieval-Augmented LLMs</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Chen Ye, Xuyang Teng, Bo Yang, Changting Lin, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Chen Ye, Xuyang Teng, Bo Yang, Changting Lin, Meng Han</div>
 <div class="paper-desc">Demonstrates a structural monitoring–control gap in RAG: models detect contradictory evidence but this awareness fails to constrain final recommendations, and single-turn diagnostics systematically overestimate multi-turn safety.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at ARR / EMNLP</span>
@@ -104,7 +104,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">CORDON</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.26754">Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Gaolei Li, Shuguang Xiong, Hongzhi Wang, Xuyang Teng, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Gaolei Li, Shuguang Xiong, Hongzhi Wang, Xuyang Teng, Meng Han</div>
 <div class="paper-desc">A multi-agent compartmentalized defense that enforces the Cordon Principle architecturally, reducing knowledge-poisoning attack success rate by 92.4%.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at ARR / EMNLP</span>
@@ -117,7 +117,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">CC</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.26789">Composition Collapse: Stable Factual Knowledge Does Not Imply Compositional Reasoning</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Yunzhao Wei, Hongzhi Wang, Xuyang Teng, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Yunzhao Wei, Hongzhi Wang, Xuyang Teng, Meng Han</div>
 <div class="paper-desc">Introduces a double-gate protocol that separates atomic knowledge stability from compositional reasoning, revealing post-training recipes can diverge by >40 pp in composition failure at matched atoms.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at ARR / EMNLP</span>
@@ -142,7 +142,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">LA</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2604.05358">LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Meng Han</div>
 <div class="paper-desc">A real-time white-box auditor that measures Mahalanobis distance between residual-stream activations and evidence representations to judge RAG faithfulness at generation time.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at CoLM 2026</span>
@@ -155,7 +155,7 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #2d7d5e, #4a9e78);">RETINA</div>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2604.05348">From Retinal Evidence to Safe Decisions: RETINA-SAFE and ECRT for Hallucination Risk Triage in Medical LLMs</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, <strong>Wenpeng Xing*</strong>, Meng Han</div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Meng Han</div>
 <div class="paper-desc">A 12,522-sample evidence-grounded benchmark for diabetic retinopathy decision settings and a two-stage white-box detection framework (ECRT) for safe/unsafe risk triage with explicit subtype attribution.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at MICCAI 2026</span>
