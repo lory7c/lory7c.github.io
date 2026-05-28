@@ -187,9 +187,10 @@ h1:before, .anchor:before {
     color: #777;
     margin-bottom: 0.25em;
     line-height: 1.4;
-    strong {
-        color: #000;
-    }
+}
+.paper-authors strong {
+    color: #000 !important;
+    font-weight: 700;
 }
 
 .paper-desc {
