@@ -220,8 +220,8 @@ My research centers on **trustworthy language models** across three interconnect
   - Part of the National Key R&D Program (Young Scientist Project) "Novel Trust System Based on Blockchain"
 - *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
   - Visiting Student
-- *Mar 2024 - Jul 2024*, **Westlake University**, Hangzhou, China
-  - Visiting Student (Optical Laboratory), supervised by Dr. Ziyang Zhang
+- *Mar 2024 - Sep 2024*, **Westlake University**, Hangzhou, China
+  - Visiting Student, Optical Laboratory, supervised by Dr. Ziyang Zhang. Worked on dual all-fiber interferometer systems for orthogonal salinity/temperature detection (published in *Optics Communications*). This early cross-disciplinary research grounded my experimental rigor and shaped my approach to extracting and interpreting internal signals — a methodology central to my current work on LLM mechanistic interpretability and white-box auditing.
 - *2023 - Expected 2027*, **Communication University of Zhejiang**, Hangzhou, China
   - B.Eng. in Artificial Intelligence, supervised by Dr. Hao Zeng
 
