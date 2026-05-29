@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Zhe Yu (俞哲). I am a Research Intern at the **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), where I work on trustworthy language models with Dr. Meng Han and Dr. Wenpeng Xing. I am currently pursuing my B.Eng. in Artificial Intelligence at the Communication University of Zhejiang (CUZ), supervised by Dr. Hao Zeng. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
+Hi, I am Zhe Yu (俞哲) from Hangzhou, China. I am a Research Intern at the **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), where I work on trustworthy language models with Dr. Meng Han and Dr. Wenpeng Xing. I am currently pursuing my B.Eng. in Artificial Intelligence at the Communication University of Zhejiang (CUZ), supervised by Dr. Hao Zeng. During my undergraduate studies, I also spent time as a Visiting Student at **Westlake University** (supervised by Dr. Ziyang Zhang) and the **University of Malaya**.
 
 > 📢 **Seeking Opportunities:** I am actively looking for **Research Assistant (RA)** positions (on-site or remote) and seeking **Fall 2027 PhD** opportunities. Please feel free to drop me an [email](mailto:zyu@zju-if.com) if you are interested!
 
