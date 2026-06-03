@@ -1,0 +1,127 @@
+% FIDES Framework Diagram — TikZ
+% All naming/spelling corrected from original PDF
+\begin{tikzpicture}[
+  every node/.style={font=\sffamily\footnotesize},
+  box/.style={draw, rounded corners=1.5pt, line width=0.55pt, inner xsep=5pt, inner ysep=3.5pt},
+  boxfill/.style={box, fill=#1},
+  lctx/.style={draw, line width=0.4pt, minimum width=16pt, minimum height=7pt, inner sep=0pt, fill=blue!08, draw=blue!40, font=\sffamily\tiny},
+  lnoctx/.style={draw, line width=0.4pt, minimum width=16pt, minimum height=7pt, inner sep=0pt, fill=gray!10, draw=gray!45, font=\sffamily\tiny},
+  sbox/.style={draw, rounded corners=1.5pt, line width=0.5pt, fill=#1, inner xsep=4pt, inner ysep=3pt, font=\sffamily\tiny},
+  arr/.style={->, >=Stealth, line width=0.5pt},
+  darr/.style={->, >=Stealth, line width=0.5pt, densely dashed},
+  hlbl/.style={font=\sffamily\tiny, text=black!65},
+]
+
+% ====== COL 1: INPUT ======
+% Context
+\node[boxfill={blue!05}, text width=2.8cm, align=left] (ctx) at (0, 2.2) {
+  \textbf{Edited Context} \\[2pt]
+  {\tiny\itshape ...Ernest Hemingway wrote}\\
+  {\tiny\itshape The Great Gatsby...}
+};
+% Query
+\node[boxfill={gray!06}, text width=2.8cm, align=left, below=6pt of ctx] (query) {
+  \textbf{Query} \\[2pt]
+  {\tiny Who wrote The Great Gatsby?}
+};
+
+% Path boxes to the right of input
+\node[boxfill={blue!06}, text width=1.25cm, align=center, right=8pt of ctx, yshift=-4pt] (ctxpath) {
+  {\tiny context} \\ {\tiny path} \\[1pt] {\tiny\ttfamily [c;x;y$_{<t}$]}
+};
+\node[boxfill={gray!08}, text width=1.25cm, align=center, right=8pt of query, yshift=4pt] (noctxpath) {
+  {\tiny no-context} \\ {\tiny path} \\[1pt] {\tiny\ttfamily [x;y$_{<t}$]}
+};
+
+% Conflict
+\node[sbox={orange!12}, below=6pt of query, text width=3.8cm, align=center] (conflict) {
+  \textbf{conflict chips} \hspace{4pt} {\tiny Ctx: Ernest Hemingway \hspace{8pt} Prior: F.~Scott~Fitzgerald}
+};
+\node[hlbl, below=2pt of conflict] {Same decoder, different conditioning};
+
+% ====== COL 2: SHARED BACKBONE ======
+\node[font=\sffamily\footnotesize\bfseries] at (5.6, 3.55) {Shared LLM Backbone};
+
+% CTX layers
+\foreach \i/\lbl in {1/L1, 2/L2, 3/{...}, 4/L15, 5/{...}, 6/L32} {
+  \pgfmathsetmacro{\y}{3.2 - (\i-1)*0.55}
+  \node[lctx] (cl\i) at (5.0, \y) {\lbl};
+}
+% NOCTX layers
+\foreach \i/\lbl in {1/L1, 2/L2, 3/{...}, 4/L15, 5/{...}, 6/L32} {
+  \pgfmathsetmacro{\y}{3.2 - (\i-1)*0.55}
+  \node[lnoctx] (nl\i) at (6.3, \y) {\lbl};
+}
+
+% Column labels
+\node[font=\sffamily\tiny, above=2pt of cl1] {CTX};
+\node[font=\sffamily\tiny, above=2pt of nl1] {NOCTX};
+
+% Output distributions
+\node[sbox={blue!05}, right=8pt of cl1] (pctx)  {$p_t^{ctx}$};
+\node[sbox={gray!08}, right=8pt of nl1] (pnoctx) {$p_t^{noctx}$};
+
+% ====== COL 3: RISK-GUIDED DECODING ======
+\node[font=\sffamily\footnotesize\bfseries] at (9.6, 3.55) {Risk-Guided Decoding};
+
+% Three signals
+\node[sbox={teal!10}, text width=2.2cm, align=center] (opp) at (9.6, 2.2) {
+  \textbf{Opposition} \\ {\tiny JSD($p_t^{ctx} \| p_t^{noctx}$)}
+};
+\node[sbox={purple!08}, text width=2.2cm, align=center, below=5pt of opp] (shift) {
+  \textbf{Shift} \\ {\tiny hidden state divergence}
+};
+\node[sbox={orange!10}, text width=2.2cm, align=center, below=5pt of shift] (noise) {
+  \textbf{Noise} \\ {\tiny mid-to-final KL}
+};
+
+% Fusion
+\node[boxfill={red!06}, text width=2.4cm, align=center, below=12pt of noise] (fusion) {
+  \textbf{FIDES Score} \\[1pt]
+  {\tiny $0.5\!\cdot\!$Opp $+$ $0.3\!\cdot\!$Shift $+$ $0.2\!\cdot\!$Noise}
+};
+\draw[arr] (opp.south)    -- (opp.south    |- fusion.north);
+\draw[arr] (shift.south)  -- (shift.south  |- fusion.north);
+\draw[arr] (noise.south)  -- (noise.south  |- fusion.north);
+
+% Alpha gate
+\node[boxfill={red!12}, text width=2.0cm, align=center, below=8pt of fusion] (gate) {
+  \textbf{token-level} \\ {\tiny adaptive gate} \\[1pt]
+  {\tiny $\alpha_t = \max(0.1,\; 1.5 \cdot S_t)$}
+};
+\draw[arr] (fusion.south) -- (gate.north);
+
+% Contrastive Update
+\node[boxfill={blue!07}, text width=2.8cm, align=center, below=10pt of gate] (contrast) {
+  \textbf{Contrastive Update} \\[1pt]
+  {\tiny $z_t^{final} = (1+\alpha_t)z_t^{ctx} - \alpha_t z_t^{noctx}$}
+};
+\draw[arr] (gate.south) -- (contrast.north);
+
+% Selected Answer
+\node[boxfill={green!06}, text width=2.2cm, align=center, below=10pt of contrast] (answer) {
+  \textbf{Selected Answer} \\[2pt]
+  {\tiny\bfseries Ernest Hemingway} \\[-1pt]
+  {\tiny F.~Scott~Fitzgerald} \\[1pt]
+  {\tiny\itshape Context-faithful \quad prior suppressed}
+};
+\draw[arr] (contrast.south) -- (answer.north);
+
+% ====== CONNECTING ARROWS ======
+% Input paths → layer stacks
+\draw[arr, blue!45]  (ctxpath.east)   -| (cl1.west);
+\draw[arr, gray!45]  (noctxpath.east) -| (nl1.west);
+
+% Layers → output distributions
+\draw[arr, blue!45]  (cl1.east) -- (pctx.west);
+\draw[arr, gray!45]  (nl1.east) -- (pnoctx.west);
+
+% Hidden states → signals (dashed)
+\draw[darr, teal!55]   (pctx.east)    .. controls +(0.7, 0) and +(-0.7, 0) .. (opp.west);
+\draw[darr, purple!55] (cl6.east)     .. controls +(1.0, 0) and +(-1.0, 0) .. (shift.west);
+\draw[darr, orange!55] (cl4.east)     .. controls +(0.9, 0) and +(-0.9, 0) .. (noise.west);
+
+% p^{noctx} also feeds Opposition via dashed
+\draw[darr, teal!40]   (pnoctx.east)  .. controls +(1.5, -0.5) and +(-1.2, -0.5) .. (opp.west);
+
+\end{tikzpicture}

@@ -232,6 +232,8 @@ My research centers on **trustworthy language models** across three interconnect
 # 📜 Patents
 
 - **Zhe Yu**, Wenpeng Xing, Meng Han. *A hallucination detection method based on dual-path internal state forcing logic for retrieval-augmented generation in large language models.* Pending Patent Application No. 202610260408X (Under Review).
+- Meng Han, **Zhe Yu**, Jiayan Hu, Rongchang Li, Wenpeng Xing, Jingyi Yu, Zhen Hong, et al. *A post-processing method, system, device, and medium for hallucination detection in large language models based on adaptive order statistics aggregation.* Chinese Patent Application No. 2026107898102, filed Jun 3, 2026. (Pending)
+- **Zhe Yu**, Jiayan Hu, Jingyi Yu, Weihang Yu, Wenpeng Xing, Jing Xiong, Yourong Chen, Zhen Hong, et al. *A hallucination detection method, system, and device for large language models based on multi-dimensional heterogeneous feature fusion.* Chinese Patent Application No. 2026107899270, filed Jun 3, 2026. (Pending)
 
 <div align="center" style="margin-top: 3em;">
 <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=OTJYDY0Z4P1NmL6mTiI0AdLsTFwNyd0S4UN-urz6AAE&cl=ffffff&w=a"></script>

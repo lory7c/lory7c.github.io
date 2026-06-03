@@ -1,0 +1,34 @@
+{
+  "mistral-base": {
+    "summarization_auc": 0.7442546583850932,
+    "summarization_auc_std": 0.04332441873248816,
+    "summarization_per_fold": [
+      0.823051948051948,
+      0.7483766233766234,
+      0.7126623376623377,
+      0.698051948051948,
+      0.7391304347826086
+    ],
+    "continuation_auc": 0.869011544011544,
+    "delta": -0.12475688562645082,
+    "n_samples": 250,
+    "n_layers": 11,
+    "feature_dim": 11
+  },
+  "qwen-base-7b": {
+    "summarization_auc": 0.7907956375347679,
+    "summarization_auc_std": 0.07992802926372439,
+    "summarization_per_fold": [
+      0.7548701298701298,
+      0.8392857142857143,
+      0.7824675324675325,
+      0.9074675324675324,
+      0.6698872785829307
+    ],
+    "continuation_auc": 0.7838441349310916,
+    "delta": 0.006951502603676274,
+    "n_samples": 250,
+    "n_layers": 9,
+    "feature_dim": 9
+  }
+}
