@@ -54,7 +54,7 @@
 
 12. **ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution**  
     Zhe Yu (Co-first Author)  
-    Status: Under Review at Blockchain: Research and Applications
+    Status: Under Review at Blockchain: Research and Applications · [[PDF]](../files/zkfpe.pdf)
 
 ---
 
