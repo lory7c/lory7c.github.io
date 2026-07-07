@@ -168,10 +168,11 @@ My research centers on **trustworthy language models** across three interconnect
 <div class="paper-thumb" style="background: linear-gradient(135deg, #1a237e, #283593);">ZK-FPE</div>
 <div class="paper-content">
 <div class="paper-title">ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution</div>
-<div class="paper-authors">Zhiguo Ma*, Wenpeng Xing*, <strong>Zhe Yu*</strong>, Yourong Chen, Meng Han</div>
+<div class="paper-authors">Zhiguo Ma*, <strong>Zhe Yu</strong>, Wenpeng Xing, Yourong Chen, Meng Han</div>
 <div class="paper-desc">Combines zero-knowledge proofs and blockchain to build verifiable model ownership attribution while preserving privacy.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at Blockchain: Research and Applications</span>
+<span class="paper-badge accepted">Accepted at ACM TURC 2026</span>
+<span class="paper-links"><a href="https://www.acmturc.com/2026/cn/callforpaper.html">[CFP]</a></span>
 </div>
 </div>
 </div>

@@ -52,13 +52,13 @@
     Zhe Yu (Co-first Author)  
     Status: Under Review at MICCAI 2026
 
-12. **ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution**  
-    Zhe Yu (Co-first Author)  
-    Status: Under Review at Blockchain: Research and Applications · [[PDF]](../files/zkfpe.pdf)
-
 ---
 
 ## Co-author
+
+12. **ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution**  
+    Wenpeng Xing (First Author), Zhe Yu (Second Author)  
+    Status: Accepted at ACM TURC 2026 · [[CFP]](https://www.acmturc.com/2026/cn/callforpaper.html) · [[PDF]](../files/zkfpe.pdf)
 
 13. **Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management**  
     Zhe Yu (Co-author)  
@@ -83,6 +83,6 @@
 | Category | Count |
 |---|---|
 | First Author | 4 |
-| Co-first Author | 8 |
-| Co-author | 4 |
+| Co-first Author | 7 |
+| Co-author | 5 |
 | **Total** | **16** |
