@@ -6,9 +6,6 @@ main:
   - title: "Publications"
     url: "/#-selected-publications"
 
-  - title: "Under Review"
-    url: "/#-manuscripts-under-review"
-
   - title: "Education"
     url: "/#-education"
 
