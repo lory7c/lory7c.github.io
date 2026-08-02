@@ -422,17 +422,17 @@
       </p>
     </div>
     <aside id="visitor-map" class="visitor-map" aria-label="Homepage visitor map" aria-live="polite">
-      <div class="visitor-map-frame">
-        <img id="visitor-map-image" class="visitor-map-image" src="https://mapmyvisitors.com/map.png?d=FgVYvW-qncjKwXObiGp4JofJkG4Lwdtv_2YQ3HwO_wg&amp;cl=ffffff" alt="Map of homepage visitor locations" width="180" height="113" loading="lazy" decoding="async">
+      <div id="visitor-map-frame" class="visitor-map-frame">
+        <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=IF08ZbsA3iXnyu55Pfppr0C3PFdI45708vUhob6zDgI"></script>
         <div id="visitor-map-fallback" class="visitor-map-fallback" hidden>
           <svg aria-hidden="true" viewBox="0 0 64 64">
             <circle cx="32" cy="32" r="24"></circle>
             <path d="M8 32h48M32 8c8 7 12 15 12 24S40 49 32 56M32 8C24 15 20 23 20 32s4 17 12 24M13 20h38M13 44h38"></path>
           </svg>
-          <span>Visitor map reconnecting</span>
+          <span>Visitor globe unavailable</span>
         </div>
       </div>
-      <a id="visitor-map-link" class="visitor-map-link" href="https://mapmyvisitors.com/web/1c73q" title="Visit tracker">Visitor map</a>
+      <a id="visitor-map-link" class="visitor-map-link" href="https://mapmyvisitors.com/web/1c73q" title="Visit tracker">Visitor globe</a>
     </aside>
   </footer>
 
@@ -447,27 +447,49 @@
       const buttons = Array.from(document.querySelectorAll('.tag-btn'));
       const backToTop = document.getElementById('back-to-top');
       const visitorMap = document.getElementById('visitor-map');
-      const visitorMapImage = document.getElementById('visitor-map-image');
+      const visitorMapFrame = document.getElementById('visitor-map-frame');
       const visitorMapFallback = document.getElementById('visitor-map-fallback');
       const visitorMapLink = document.getElementById('visitor-map-link');
+      const visitorGlobeScript = document.getElementById('mmvst_globe');
 
       function setVisitorMapAvailable(available) {
-        if (!visitorMap || !visitorMapImage || !visitorMapFallback || !visitorMapLink) return;
+        if (!visitorMap || !visitorMapFallback || !visitorMapLink) return;
         visitorMap.classList.toggle('is-offline', !available);
-        visitorMapImage.hidden = !available;
         visitorMapFallback.hidden = available;
         visitorMapLink.hidden = false;
       }
 
-      if (visitorMapImage) {
-        visitorMapImage.addEventListener('load', function () {
-          setVisitorMapAvailable(visitorMapImage.naturalWidth > 0);
-        });
-        visitorMapImage.addEventListener('error', function () {
+      if (visitorMapFrame && visitorGlobeScript) {
+        let globeObserver;
+
+        function connectVisitorGlobe() {
+          const globe = visitorMapFrame.querySelector('.mmvst_outer');
+          if (!globe) return false;
+
+          const globeLink = globe.querySelector('#mmvst_a');
+          if (globeLink && visitorMapLink) {
+            globeLink.href = visitorMapLink.href;
+            globeLink.title = 'Visit tracker';
+            globeLink.setAttribute('aria-label', 'Open visitor statistics');
+          }
+
+          setVisitorMapAvailable(true);
+          if (globeObserver) globeObserver.disconnect();
+          return true;
+        }
+
+        globeObserver = new MutationObserver(connectVisitorGlobe);
+        globeObserver.observe(visitorMapFrame, { childList: true });
+
+        visitorGlobeScript.addEventListener('error', function () {
+          if (globeObserver) globeObserver.disconnect();
           setVisitorMapAvailable(false);
         });
-        if (visitorMapImage.complete) {
-          setVisitorMapAvailable(visitorMapImage.naturalWidth > 0);
+
+        if (!connectVisitorGlobe()) {
+          window.setTimeout(function () {
+            if (!connectVisitorGlobe()) setVisitorMapAvailable(false);
+          }, 6000);
         }
       }
 
