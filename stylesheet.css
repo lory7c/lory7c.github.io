@@ -313,9 +313,19 @@ a {
 }
 
 .profile-location {
+  display: grid;
+  gap: 1px;
   color: var(--muted);
   font-size: 13px;
   letter-spacing: 0.02em;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.profile-location small {
+  color: #8a949d;
+  font-size: 10px;
+  letter-spacing: 0.04em;
 }
 
 .section-block {
