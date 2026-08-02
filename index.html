@@ -6,7 +6,7 @@
   <title>Zhe Yu | Trustworthy Language Models &amp; Agentic AI</title>
   <meta name="author" content="Zhe Yu">
   <meta name="description" content="Zhe Yu studies trustworthy language models and agentic AI, from latent knowledge to reliable action, memory, and verifiable trust.">
-  <meta name="theme-color" content="#f4f8f9">
+  <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="Zhe Yu | Academic Homepage">
   <meta property="og:description" content="From latent knowledge to reliable action, memory, and verifiable trust.">
   <meta property="og:type" content="website">
@@ -19,13 +19,21 @@
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <nav class="section-drip-nav" aria-label="Page sections">
-    <a href="#about"><span>About</span></a>
-    <a href="#research"><span>Research</span></a>
-    <a href="#publications"><span>Publications</span></a>
-    <a href="#experience"><span>Experience</span></a>
-    <a href="#patents"><span>Patents</span></a>
-  </nav>
+  <header class="site-header">
+    <div class="site-nav-shell">
+      <a class="site-brand" href="#about" aria-label="Zhe Yu homepage">
+        <span class="site-brand-mark" aria-hidden="true">ZY</span>
+        <span>Zhe Yu</span>
+      </a>
+      <nav class="site-nav-links" aria-label="Primary navigation">
+        <a href="#research">Research</a>
+        <a class="nav-priority" href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#patents">Patents</a>
+        <a class="nav-cv" href="files/CV_Zhe_Yu_EN.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
 
   <main id="main-content" class="page-shell">
     <aside id="about" class="profile-sidebar page-section" aria-label="Profile">
@@ -76,13 +84,15 @@
       <header class="profile-intro" aria-labelledby="intro-title">
         <h2 id="intro-title">Trustworthy Language Models &amp; Agentic AI</h2>
         <p>
+          <strong class="intro-label">Bio.</strong>
           I am a Research Intern at the
           <a href="https://ifrc-zju.github.io/">Binjiang Institute of Zhejiang University (IFRC Lab)</a>,
           working on trustworthy language models with Dr. Meng Han and Dr. Wenpeng Xing. I am pursuing a B.Eng. in Artificial Intelligence at the Communication University of Zhejiang, supervised by Dr. Hao Zeng.
         </p>
 
         <p class="research-line">
-          <strong>From latent knowledge to reliable action, memory, and verifiable trust.</strong>
+          <strong class="intro-label">Research.</strong>
+          <span class="research-thesis">From latent knowledge to reliable action, memory, and verifiable trust.</span>
           I study how models internally represent knowledge, evidence provenance, conflict, and risk; why those signals fail to guide generation, tool use, and memory; and how monitoring, system safeguards, and verification can make AI systems more reliable.
         </p>
       </header>
@@ -126,7 +136,10 @@
     </section>
 
     <section id="publications" class="page-section section-block" aria-labelledby="publications-title">
-      <h2 id="publications-title" class="section-title">Publications</h2>
+      <h2 id="publications-title" class="section-title">
+        Publications
+        <a class="full-paper-link" href="https://scholar.google.com/citations?user=nmszO0QAAAAJ&amp;hl=en">(Full paper list)</a>
+      </h2>
       <p class="section-intro publication-note">* Equal contribution. Review statuses are a snapshot dated August 2, 2026.</p>
 
       <div id="tag-filter" class="tag-filter" role="group" aria-label="Filter publications by research area">
@@ -364,8 +377,6 @@
       const papers = Array.from(document.querySelectorAll('.paper-row'));
       const buttons = Array.from(document.querySelectorAll('.tag-btn'));
       const backToTop = document.getElementById('back-to-top');
-      const sectionNav = document.querySelector('.section-drip-nav');
-      const footer = document.querySelector('.landscape-footer');
 
       function tagsFor(paper) {
         return paper.dataset.tags.split(/\s+/).filter(Boolean);
@@ -397,9 +408,6 @@
 
       function updateFloatingControls() {
         backToTop.classList.toggle('visible', window.scrollY > 360);
-        if (sectionNav && footer) {
-          sectionNav.classList.toggle('footer-visible', footer.getBoundingClientRect().top < sectionNav.getBoundingClientRect().bottom + 24);
-        }
       }
 
       window.addEventListener('scroll', updateFloatingControls, { passive: true });
@@ -409,19 +417,6 @@
       backToTop.addEventListener('click', function () {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
-
-      if ('IntersectionObserver' in window) {
-        const navLinks = Array.from(document.querySelectorAll('.section-drip-nav a'));
-        const observer = new IntersectionObserver(function (entries) {
-          entries.forEach(function (entry) {
-            if (!entry.isIntersecting) return;
-            navLinks.forEach(function (link) {
-              link.toggleAttribute('aria-current', link.getAttribute('href') === '#' + entry.target.id);
-            });
-          });
-        }, { rootMargin: '-20% 0px -65% 0px' });
-        document.querySelectorAll('.page-section').forEach(function (section) { observer.observe(section); });
-      }
     })();
   </script>
 </body>
