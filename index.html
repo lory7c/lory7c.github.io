@@ -493,23 +493,41 @@
         }
       }
 
+      function scrollPageByWheel(delta) {
+        try {
+          window.scrollBy({ top: delta, left: 0, behavior: 'instant' });
+        } catch (error) {
+          const root = document.documentElement;
+          const previousScrollBehavior = root.style.scrollBehavior;
+          root.style.scrollBehavior = 'auto';
+          window.scrollBy(0, delta);
+          root.style.scrollBehavior = previousScrollBehavior;
+        }
+      }
+
       publicationList.addEventListener('wheel', function (event) {
         if (event.ctrlKey || Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
 
-        const edgeTolerance = 1;
-        const atTop = publicationList.scrollTop <= edgeTolerance;
-        const atBottom = publicationList.scrollTop + publicationList.clientHeight >= publicationList.scrollHeight - edgeTolerance;
-        const leavingAtTop = event.deltaY < 0 && atTop;
-        const leavingAtBottom = event.deltaY > 0 && atBottom;
-
-        if (!leavingAtTop && !leavingAtBottom) return;
-
         let pageDelta = event.deltaY;
-        if (event.deltaMode === WheelEvent.DOM_DELTA_LINE) pageDelta *= 16;
-        if (event.deltaMode === WheelEvent.DOM_DELTA_PAGE) pageDelta *= window.innerHeight;
+        if (event.deltaMode === 1) pageDelta *= 16;
+        if (event.deltaMode === 2) pageDelta *= window.innerHeight;
+
+        const edgeTolerance = 1;
+        const maxScrollTop = Math.max(0, publicationList.scrollHeight - publicationList.clientHeight);
+        const currentScrollTop = Math.min(maxScrollTop, Math.max(0, publicationList.scrollTop));
+        const direction = Math.sign(pageDelta);
+        const remainingListDistance = direction > 0 ? maxScrollTop - currentScrollTop : currentScrollTop;
+        const atExitEdge = remainingListDistance <= edgeTolerance;
+        const crossesExitEdge = Math.abs(pageDelta) > remainingListDistance + edgeTolerance;
+
+        if (!atExitEdge && !crossesExitEdge) return;
 
         event.preventDefault();
-        window.scrollBy({ top: pageDelta, left: 0, behavior: 'auto' });
+        publicationList.scrollTop = direction > 0 ? maxScrollTop : 0;
+
+        const consumedByList = Math.min(Math.abs(pageDelta), remainingListDistance);
+        const handoffDelta = direction * (Math.abs(pageDelta) - consumedByList);
+        if (handoffDelta) scrollPageByWheel(handoffDelta);
       }, { passive: false });
 
       function tagsFor(paper) {
