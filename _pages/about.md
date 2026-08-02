@@ -82,32 +82,6 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<a class="paper-thumb paper-thumb--image" href="/files/Knowing_Is_Not_Acting.pdf" aria-label="Open the Knowing Is Not Acting paper PDF"><img src="/images/knowing-is-not-acting-framework.png" alt="Knowing Is Not Acting framework: threat channels, early recognition, late action, and matched intervention" width="1010" height="606" loading="lazy" decoding="async"></a>
-<div class="paper-content">
-<div class="paper-title"><a href="/files/Knowing_Is_Not_Acting.pdf">Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection</a></div>
-<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han</div>
-<div class="paper-desc">Shows that indirect prompt injection failure is not absent source recognition but representation–action dissociation: source role is linearly decodable early, yet tool decisions become causally controllable only in a late commitment band.</div>
-<div class="paper-meta">
-<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
-<span class="paper-links"><a href="/files/Knowing_Is_Not_Acting.pdf">[PDF]</a></span>
-</div>
-</div>
-</div>
-
-<div class="paper-card">
-<a class="paper-thumb paper-thumb--image" href="/files/cot_swap_neurips2026.pdf" aria-label="Open the Whose Thoughts paper PDF"><img src="/images/whose-thoughts-framework.png" alt="Whose Thoughts framework: CoT-Swap input, internal dissociation, behavioral outcome, and mechanistic repair" width="1076" height="518" loading="lazy" decoding="async"></a>
-<div class="paper-content">
-<div class="paper-title"><a href="/files/cot_swap_neurips2026.pdf">Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models</a></div>
-<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han</div>
-<div class="paper-desc">Exposes a structural source-override vulnerability in reasoning-tuned models: when the assistant-side &lt;think&gt; block contains a CoT for a different question, models answer the wrong question in the majority of cases.</div>
-<div class="paper-meta">
-<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
-<span class="paper-links"><a href="/files/cot_swap_neurips2026.pdf">[PDF]</a></span>
-</div>
-</div>
-</div>
-
-<div class="paper-card">
 <a class="paper-thumb paper-thumb--image" href="/files/plait_aaai2027.pdf" aria-label="Open the PLAIT paper PDF"><img src="/images/plait-framework.png" alt="PLAIT parent-preserving response, claim, and span audit planning framework" width="1092" height="534" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/plait_aaai2027.pdf">PLAIT: From Hallucination Scores to Parent-Preserving Audit Plans</a></div>
@@ -134,19 +108,6 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<a class="paper-thumb paper-thumb--image" href="/files/fides.pdf" aria-label="Open the FIDES paper PDF"><img src="/images/fides-framework.png" alt="FIDES framework for faithful inference under retrieval-memory conflict" width="1218" height="540" loading="lazy" decoding="async"></a>
-<div class="paper-content">
-<div class="paper-title"><a href="/files/fides.pdf">FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
-<div class="paper-desc">Reveals token-level conflict concentration in retrieval-memory conflict and proposes a training-free decoder that fuses three complementary internal signals for per-token selective intervention.</div>
-<div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
-<span class="paper-links"><a href="/files/fides.pdf">[PDF]</a></span>
-</div>
-</div>
-</div>
-
-<div class="paper-card">
 <a class="paper-thumb paper-thumb--image" href="/files/detecting_is_not_resolving.pdf" aria-label="Open the Calibration Does Not Certify a Contrast paper PDF"><img src="/images/calibration-contrast-gavel-framework.png" alt="GAVEL identical-pair audit and pair-level correction framework for LLM evaluators" width="1146" height="616" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/detecting_is_not_resolving.pdf">Calibration Does Not Certify a Contrast: Identification and Correction for LLM Evaluators</a></div>
@@ -155,6 +116,45 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at AAAI 2027</span>
 <span class="paper-links"><a href="/files/detecting_is_not_resolving.pdf">[PDF]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
+<a class="paper-thumb paper-thumb--image" href="/files/Knowing_Is_Not_Acting.pdf" aria-label="Open the Knowing Is Not Acting paper PDF"><img src="/images/knowing-is-not-acting-framework.png" alt="Knowing Is Not Acting framework: threat channels, early recognition, late action, and matched intervention" width="1010" height="606" loading="lazy" decoding="async"></a>
+<div class="paper-content">
+<div class="paper-title"><a href="/files/Knowing_Is_Not_Acting.pdf">Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection</a></div>
+<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han</div>
+<div class="paper-desc">Shows that indirect prompt injection failure is not absent source recognition but representation–action dissociation: source role is linearly decodable early, yet tool decisions become causally controllable only in a late commitment band.</div>
+<div class="paper-meta">
+<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
+<span class="paper-links"><a href="/files/Knowing_Is_Not_Acting.pdf">[PDF]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
+<a class="paper-thumb paper-thumb--image" href="/files/cot_swap_neurips2026.pdf" aria-label="Open the Whose Thoughts paper PDF"><img src="/images/whose-thoughts-framework.png" alt="Whose Thoughts framework: CoT-Swap input, internal dissociation, behavioral outcome, and mechanistic repair" width="1076" height="518" loading="lazy" decoding="async"></a>
+<div class="paper-content">
+<div class="paper-title"><a href="/files/cot_swap_neurips2026.pdf">Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models</a></div>
+<div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han</div>
+<div class="paper-desc">Exposes a structural source-override vulnerability in reasoning-tuned models: when the assistant-side &lt;think&gt; block contains a CoT for a different question, models answer the wrong question in the majority of cases.</div>
+<div class="paper-meta">
+<span class="paper-badge under-review">Under review at NeurIPS 2026</span>
+<span class="paper-links"><a href="/files/cot_swap_neurips2026.pdf">[PDF]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
+<a class="paper-thumb paper-thumb--image" href="/files/fides.pdf" aria-label="Open the FIDES paper PDF"><img src="/images/fides-framework.png" alt="FIDES framework for faithful inference under retrieval-memory conflict" width="1218" height="540" loading="lazy" decoding="async"></a>
+<div class="paper-content">
+<div class="paper-title"><a href="/files/fides.pdf">FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG</a></div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
+<div class="paper-desc">Reveals token-level conflict concentration in retrieval-memory conflict and proposes a training-free decoder that fuses three complementary internal signals for per-token selective intervention.</div>
+<div class="paper-meta">
+<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
+<span class="paper-links"><a href="/files/fides.pdf">[PDF]</a></span>
 </div>
 </div>
 </div>
