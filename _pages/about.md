@@ -17,7 +17,7 @@ Hi, I am Zhe Yu (俞哲) from Hangzhou, China. I am a Research Assistant at the 
 
 <p class="cv-links">
   <span aria-hidden="true">📄</span>
-  <strong><a href="/files/CV_Zhe_Yu_EN.pdf?v=20260803">Download my full CV (English)</a> <span class="cv-links__separator">|</span> <a href="/files/CV_Zhe_Yu_CN.pdf?v=20260803">获取完整中文简历</a></strong>
+  <strong><a href="/files/CV_Zhe_Yu_EN.pdf?v=20260803b">Download my full CV (English)</a> <span class="cv-links__separator">|</span> <a href="/files/CV_Zhe_Yu_CN.pdf?v=20260803b">获取完整中文简历</a></strong>
 </p>
 
 <section class="research-hero" aria-labelledby="research-vision-title">
