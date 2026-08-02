@@ -291,6 +291,16 @@ h1:before, .anchor:before {
     min-width: 0;
 }
 
+.institution-mark-inline {
+    width: 112px;
+    height: 36px;
+    margin: 0 0.75em 0.2em 0;
+    object-fit: contain;
+    vertical-align: middle;
+    filter: grayscale(1) brightness(0);
+    opacity: 0.72;
+}
+
 .paper-title {
     font-size: 1.05em;
     font-weight: 600;

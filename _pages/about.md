@@ -267,17 +267,17 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 
 # Experience & Education
 
-- *May 2026 - Present*, **Hong Kong University of Science and Technology (Guangzhou)**
+- <img class="institution-mark-inline" src="/images/institutions/hkust-gz.png" alt="" aria-hidden="true" width="566" height="108"> *May 2026 - Present*, **Hong Kong University of Science and Technology (Guangzhou)**
   - Research Assistant, advised by **[Prof. Chengwei Qin](https://qcwthu.github.io/)**
-- *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
+- <img class="institution-mark-inline" src="/images/institutions/zhejiang-university.png" alt="" aria-hidden="true" width="294" height="81"> *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
   - Research Intern, supervised by **[Dr. Meng Han](https://scholar.google.com/citations?user=TnCrl1cAAAAJ&hl=en)** and Dr. Wenpeng Xing
   - Part of the Guangdong Provincial Key R&D Program "Multimodal LLM Safety System Research and Application"
   - Part of the National Key R&D Program (Young Scientist Project) "Novel Trust System Based on Blockchain"
-- *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
+- <img class="institution-mark-inline" src="/images/institutions/university-of-malaya.png" alt="" aria-hidden="true" width="180" height="56"> *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
   - Visiting Student
-- *Mar 2024 - Sep 2024*, **Westlake University**, Hangzhou, China
+- <img class="institution-mark-inline" src="/images/institutions/westlake-university.png" alt="" aria-hidden="true" width="886" height="264"> *Mar 2024 - Sep 2024*, **Westlake University**, Hangzhou, China
   - Visiting Student, Optical Laboratory, supervised by Dr. Ziyang Zhang. Worked on dual all-fiber interferometer systems for orthogonal salinity/temperature detection (published in *Optics Communications*). This early cross-disciplinary research grounded my experimental rigor and shaped my approach to extracting and interpreting internal signals — a methodology central to my current work on LLM mechanistic interpretability and white-box auditing.
-- *2023 - Expected 2027*, **Communication University of Zhejiang**, Hangzhou, China
+- <img class="institution-mark-inline" src="/images/institutions/communication-university-of-zhejiang.png" alt="" aria-hidden="true" width="326" height="57"> *2023 - Expected 2027*, **Communication University of Zhejiang**, Hangzhou, China
   - B.Eng. in Artificial Intelligence, supervised by Dr. Hao Zeng
 
 <span class='anchor' id='patents'></span>

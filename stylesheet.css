@@ -702,8 +702,9 @@ a {
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  gap: 30px;
+  grid-template-columns: 180px minmax(0, 1fr) 142px;
+  gap: 24px;
+  align-items: start;
   padding: 18px 0;
   border-bottom: 1px solid #e5e7eb;
 }
@@ -727,6 +728,23 @@ a {
   max-width: 88ch;
   margin: 0;
   color: #52606b;
+}
+
+.institution-mark {
+  display: flex;
+  width: 142px;
+  height: 52px;
+  align-self: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.institution-mark img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  filter: grayscale(1) brightness(0);
+  opacity: 0.72;
 }
 
 .patent-list {
@@ -1049,7 +1067,16 @@ a {
 
   .timeline-item {
     grid-template-columns: 128px 1fr;
-    gap: 14px;
+    column-gap: 14px;
+    row-gap: 8px;
+  }
+
+  .institution-mark {
+    grid-column: 2;
+    width: 128px;
+    height: 44px;
+    margin-top: 4px;
+    justify-content: flex-start;
   }
 }
 
@@ -1099,6 +1126,13 @@ a {
   .timeline-item {
     grid-template-columns: 1fr;
     gap: 4px;
+  }
+
+  .institution-mark {
+    grid-column: 1;
+    width: 124px;
+    height: 42px;
+    margin-top: 8px;
   }
 
   .landscape-content {
