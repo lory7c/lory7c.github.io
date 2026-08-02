@@ -17,7 +17,7 @@ Hi, I am Zhe Yu (俞哲) from Hangzhou, China. I am a Research Assistant at the 
 
 <p class="cv-links">
   <span aria-hidden="true">📄</span>
-  <strong><a href="/files/CV_Zhe_Yu_EN.pdf?v=20260803b">Download my full CV (English)</a> <span class="cv-links__separator">|</span> <a href="/files/CV_Zhe_Yu_CN.pdf?v=20260803b">获取完整中文简历</a></strong>
+  <strong><a href="/files/CV_Zhe_Yu_EN.pdf?v=20260803c">Download my full CV (English)</a> <span class="cv-links__separator">|</span> <a href="/files/CV_Zhe_Yu_CN.pdf?v=20260803c">获取完整中文简历</a></strong>
 </p>
 
 <section class="research-hero" aria-labelledby="research-vision-title">
@@ -153,7 +153,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
 <div class="paper-desc">Reveals token-level conflict concentration in retrieval-memory conflict and proposes a training-free decoder that fuses three complementary internal signals for per-token selective intervention.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
+<span class="paper-badge under-review">Under review at EMNLP 2026</span>
 <span class="paper-links"><a href="/files/fides.pdf">[PDF]</a></span>
 </div>
 </div>
@@ -166,7 +166,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Gaolei Li, Shuguang Xiong, Hongzhi Wang, Xuyang Teng, Meng Han</div>
 <div class="paper-desc">A multi-agent compartmentalized defense that enforces the Cordon Principle architecturally, reducing knowledge-poisoning attack success rate by 92.4%.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
+<span class="paper-badge under-review">Under review at EMNLP 2026</span>
 <span class="paper-links"><a href="/files/cordon_mas.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26754">[arXiv]</a></span>
 </div>
 </div>
@@ -179,7 +179,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Yunzhao Wei, Hongzhi Wang, Xuyang Teng, Meng Han</div>
 <div class="paper-desc">Introduces a double-gate protocol that separates atomic knowledge stability from compositional reasoning, revealing post-training recipes can diverge by >40 pp in composition failure at matched atoms.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
+<span class="paper-badge under-review">Under review at EMNLP 2026</span>
 <span class="paper-links"><a href="/files/composition_collapse.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26789">[arXiv]</a></span>
 </div>
 </div>
@@ -192,7 +192,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-authors">Zhenhua Xu, Qichen Liu, Zhebo Wang, <strong>Zhe Yu</strong>, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han</div>
 <div class="paper-desc">Enables scalable and efficient model fingerprint transfer via vector addition for ownership verification.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
+<span class="paper-badge under-review">Under review at EMNLP 2026</span>
 </div>
 </div>
 </div>
