@@ -322,9 +322,20 @@ a {
   text-align: center;
 }
 
-.profile-location > span {
+.profile-location > a {
+  color: var(--muted);
   font-size: 14px;
   font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(96, 107, 118, 0.35);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.profile-location > a:hover,
+.profile-location > a:focus-visible {
+  color: var(--accent);
+  text-decoration-color: currentColor;
 }
 
 .profile-location small {
