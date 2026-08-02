@@ -302,5 +302,5 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 - **Zhe Yu**, Jiayan Hu, Jingyi Yu, Weihang Yu, Wenpeng Xing, Jing Xiong, Yourong Chen, Zhen Hong, et al. *A hallucination detection method, system, and device for large language models based on multi-dimensional heterogeneous feature fusion.* Chinese Patent Application No. 2026107899270, filed Jun 3, 2026. (Pending)
 
 <div align="center" style="margin-top: 3em;">
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=OTJYDY0Z4P1NmL6mTiI0AdLsTFwNyd0S4UN-urz6AAE&cl=ffffff&w=a"></script>
+<img src="https://mapmyvisitors.com/map.png?d=OTJYDY0Z4P1NmL6mTiI0AdLsTFwNyd0S4UN-urz6AAE&cl=ffffff&w=a" alt="Map of homepage visitor locations" width="180" height="113">
 </div>
