@@ -151,7 +151,7 @@
         <button class="tag-btn" type="button" data-tag="interdisciplinary" aria-pressed="false">Interdisciplinary</button>
       </div>
 
-      <div class="publication-list" aria-live="polite">
+      <div id="publication-list" class="publication-list" role="region" aria-label="Publication list, showing up to four papers at a time" aria-live="polite" tabindex="0">
         <article class="paper-row featured" data-tags="grounding">
           <div class="paper-visual grounding"><span>DISF</span><small>ACL 2026</small></div>
           <div class="paper-content">
@@ -378,6 +378,7 @@
   <script>
     (function () {
       const filter = document.getElementById('tag-filter');
+      const publicationList = document.getElementById('publication-list');
       const papers = Array.from(document.querySelectorAll('.paper-row'));
       const buttons = Array.from(document.querySelectorAll('.tag-btn'));
       const backToTop = document.getElementById('back-to-top');
@@ -394,6 +395,29 @@
         button.insertAdjacentHTML('beforeend', '<span class="tag-count">' + count + '</span>');
       });
 
+      let publicationWindowFrame;
+      function updatePublicationWindow() {
+        window.cancelAnimationFrame(publicationWindowFrame);
+        publicationWindowFrame = window.requestAnimationFrame(function () {
+          const visiblePapers = papers.filter(function (paper) { return !paper.hidden; });
+          const windowPapers = visiblePapers.slice(0, 4);
+          const listStyle = window.getComputedStyle(publicationList);
+          const rowGap = parseFloat(listStyle.rowGap) || 0;
+          const verticalChrome =
+            (parseFloat(listStyle.paddingTop) || 0) +
+            (parseFloat(listStyle.paddingBottom) || 0) +
+            (parseFloat(listStyle.borderTopWidth) || 0) +
+            (parseFloat(listStyle.borderBottomWidth) || 0);
+          const paperHeight = windowPapers.reduce(function (total, paper) {
+            return total + paper.offsetHeight;
+          }, 0);
+          const gapHeight = Math.max(0, windowPapers.length - 1) * rowGap;
+
+          publicationList.style.setProperty('--publication-window-height', Math.ceil(paperHeight + gapHeight + verticalChrome) + 'px');
+          publicationList.classList.toggle('is-scrollable', visiblePapers.length > 4);
+        });
+      }
+
       filter.addEventListener('click', function (event) {
         const button = event.target.closest('.tag-btn');
         if (!button) return;
@@ -408,6 +432,8 @@
         papers.forEach(function (paper) {
           paper.hidden = tag !== 'all' && !tagsFor(paper).includes(tag);
         });
+        publicationList.scrollTop = 0;
+        updatePublicationWindow();
       });
 
       function updateFloatingControls() {
@@ -416,7 +442,12 @@
 
       window.addEventListener('scroll', updateFloatingControls, { passive: true });
       window.addEventListener('resize', updateFloatingControls);
+      window.addEventListener('resize', updatePublicationWindow);
       updateFloatingControls();
+      updatePublicationWindow();
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(updatePublicationWindow);
+      }
 
       backToTop.addEventListener('click', function () {
         window.scrollTo({ top: 0, behavior: 'smooth' });

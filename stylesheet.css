@@ -474,10 +474,41 @@ a {
 }
 
 .publication-list {
+  --publication-window-height: none;
+
   display: grid;
   gap: 0;
   margin-top: 20px;
-  border-top: 1px solid #e5e7eb;
+  max-height: var(--publication-window-height);
+  padding: 0 14px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fff;
+  scrollbar-color: #b8c2ca transparent;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  touch-action: pan-y;
+}
+
+.publication-list:focus-visible {
+  outline: 3px solid rgba(39, 116, 174, 0.3);
+  outline-offset: 3px;
+}
+
+.publication-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.publication-list::-webkit-scrollbar-thumb {
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background: #b8c2ca;
+}
+
+.publication-list::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .paper-row {
