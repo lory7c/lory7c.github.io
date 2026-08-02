@@ -322,6 +322,11 @@ a {
   text-align: center;
 }
 
+.profile-location > span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
 .profile-location small {
   color: #8a949d;
   font-size: 13px;
