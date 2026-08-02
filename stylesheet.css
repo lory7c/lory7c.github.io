@@ -98,26 +98,16 @@ a {
 .site-brand {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
   color: var(--ink);
-  font-size: 19px;
-  font-weight: 750;
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1;
 }
 
 .site-brand:hover {
   color: var(--accent);
-}
-
-.site-brand-mark {
-  display: grid;
-  width: 34px;
-  height: 34px;
-  place-items: center;
-  border-radius: 5px;
-  color: #fff;
-  background: var(--accent);
-  font-size: 12px;
-  letter-spacing: 0.04em;
 }
 
 .site-nav-links {
@@ -1007,12 +997,7 @@ a {
   }
 
   .site-brand {
-    font-size: 17px;
-  }
-
-  .site-brand-mark {
-    width: 30px;
-    height: 30px;
+    font-size: 21px;
   }
 
   .site-nav-links {
