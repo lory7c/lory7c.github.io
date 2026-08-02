@@ -471,6 +471,25 @@
         }
       }
 
+      publicationList.addEventListener('wheel', function (event) {
+        if (event.ctrlKey || Math.abs(event.deltaY) <= Math.abs(event.deltaX)) return;
+
+        const edgeTolerance = 1;
+        const atTop = publicationList.scrollTop <= edgeTolerance;
+        const atBottom = publicationList.scrollTop + publicationList.clientHeight >= publicationList.scrollHeight - edgeTolerance;
+        const leavingAtTop = event.deltaY < 0 && atTop;
+        const leavingAtBottom = event.deltaY > 0 && atBottom;
+
+        if (!leavingAtTop && !leavingAtBottom) return;
+
+        let pageDelta = event.deltaY;
+        if (event.deltaMode === WheelEvent.DOM_DELTA_LINE) pageDelta *= 16;
+        if (event.deltaMode === WheelEvent.DOM_DELTA_PAGE) pageDelta *= window.innerHeight;
+
+        event.preventDefault();
+        window.scrollBy({ top: pageDelta, left: 0, behavior: 'auto' });
+      }, { passive: false });
+
       function tagsFor(paper) {
         return paper.dataset.tags.split(/\s+/).filter(Boolean);
       }
