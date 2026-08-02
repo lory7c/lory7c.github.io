@@ -273,7 +273,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
   - Research Intern, supervised by **[Dr. Meng Han](https://scholar.google.com/citations?user=TnCrl1cAAAAJ&hl=en)** and Dr. Wenpeng Xing
   - Part of the Guangdong Provincial Key R&D Program "Multimodal LLM Safety System Research and Application"
   - Part of the National Key R&D Program (Young Scientist Project) "Novel Trust System Based on Blockchain"
-- <img class="institution-mark-inline" src="/images/institutions/university-of-malaya.png" alt="" aria-hidden="true" width="330" height="412"> *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
+- <img class="institution-mark-inline" src="/images/institutions/university-of-malaya.png" alt="" aria-hidden="true" width="180" height="56"> *Jan 2025 - Feb 2025*, **University of Malaya**, Kuala Lumpur, Malaysia
   - Visiting Student
 - <img class="institution-mark-inline" src="/images/institutions/westlake-university.png" alt="" aria-hidden="true" width="500" height="149"> *Mar 2024 - Sep 2024*, **Westlake University**, Hangzhou, China
   - Visiting Student, Optical Laboratory, supervised by Dr. Ziyang Zhang. Worked on dual all-fiber interferometer systems for orthogonal salinity/temperature detection (published in *Optics Communications*). This early cross-disciplinary research grounded my experimental rigor and shaped my approach to extracting and interpreting internal signals — a methodology central to my current work on LLM mechanistic interpretability and white-box auditing.
