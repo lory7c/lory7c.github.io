@@ -108,13 +108,13 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">ABS</div>
+<a class="paper-thumb paper-thumb--image" href="/files/attribution_blind_spot.pdf" aria-label="Open The Attribution Blind Spot paper PDF"><img src="/images/attribution-blind-spot-framework.png" alt="Attribution Blind Spot paired signed interface and frozen-control evaluation framework" width="1202" height="686" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.26778">The Attribution Blind Spot: Detecting When Language Models Rely on Memory Rather Than Retrieved Context</a></div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Bo Yang, Chen Ye, Gaolei Li, Yunzhao Wei, Meng Han</div>
 <div class="paper-desc">Formalizes the attribution blind spot — when parametric memory and retrieved context produce identical surface text — and proposes Computational Reality Monitoring (CRM) to detect internal trajectory divergence.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
+<span class="paper-badge under-review">Under review at AAAI 2027</span>
 <span class="paper-links"><a href="/files/attribution_blind_spot.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26778">[arXiv]</a></span>
 </div>
 </div>
