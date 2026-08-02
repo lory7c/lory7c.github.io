@@ -198,7 +198,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #2d7d5e, #4a9e78);">RETINA</div>
+<a class="paper-thumb paper-thumb--image" href="https://arxiv.org/abs/2604.05348" aria-label="Open the RETINA-SAFE and ECRT paper on arXiv"><img src="/images/retina-safe-ecrt-framework.png" alt="RETINA-SAFE and ECRT framework for retinal-evidence hallucination-risk triage" width="1240" height="596" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2604.05348">From Retinal Evidence to Safe Decisions: RETINA-SAFE and ECRT for Hallucination Risk Triage in Medical LLMs</a></div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Meng Han</div>
