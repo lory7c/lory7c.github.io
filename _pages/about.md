@@ -211,7 +211,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a237e, #283593);">ZK-FPE</div>
+<a class="paper-thumb paper-thumb--image" href="/files/zkfpe.pdf" aria-label="Open the ZK-FPE paper PDF"><img src="/images/zkfpe-framework.png" alt="ZK-FPE fingerprint injection, zero-knowledge proving, registry, and two-step verification" width="1078" height="632" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title">ZK-FPE: Blockchain-Verifiable Model Fingerprinting with Zero-Knowledge Privacy for Ownership Attribution</div>
 <div class="paper-authors">Zhiguo Ma*, <strong>Zhe Yu</strong>, Wenpeng Xing, Yourong Chen, Meng Han</div>
