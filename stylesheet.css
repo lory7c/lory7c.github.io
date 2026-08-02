@@ -9,6 +9,8 @@
   --accent-dark: #164f7a;
   --accent-soft: #f5f8fb;
   --shadow: 0 8px 24px rgba(32, 38, 46, 0.07);
+  --page-max-width: 1560px;
+  --page-side-space: clamp(12px, 4vw, 64px);
 }
 
 * {
@@ -88,7 +90,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: min(calc(100% - clamp(32px, 6vw, 116px)), 1920px);
+  width: min(calc(100% - var(--page-side-space) - var(--page-side-space)), var(--page-max-width));
   min-height: 72px;
   margin: 0 auto;
 }
@@ -144,7 +146,7 @@ a {
   display: grid;
   grid-template-columns: 290px minmax(0, 1fr);
   gap: clamp(42px, 5vw, 76px);
-  width: min(calc(100% - clamp(32px, 6vw, 116px)), 1920px);
+  width: min(calc(100% - var(--page-side-space) - var(--page-side-space)), var(--page-max-width));
   margin: 0 auto;
   padding-top: 112px;
 }
@@ -932,7 +934,6 @@ a {
 
 @media (max-width: 700px) {
   .site-nav-shell {
-    width: calc(100% - 24px);
     min-height: 64px;
   }
 
@@ -1037,10 +1038,6 @@ a {
 @media (max-width: 480px) {
   body {
     font-size: 14px;
-  }
-
-  .page-shell {
-    width: calc(100% - 24px);
   }
 
   .profile-sidebar h1 {
