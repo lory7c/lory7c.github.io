@@ -203,6 +203,10 @@ a {
   text-align: center;
 }
 
+.sidebar-affiliation span {
+  display: block;
+}
+
 .content-column {
   min-width: 0;
 }
