@@ -147,7 +147,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">CORDON</div>
+<a class="paper-thumb paper-thumb--image" href="/files/cordon_mas.pdf" aria-label="Open the CORDON-MAS paper PDF"><img src="/images/cordon-mas-framework.png" alt="CORDON-MAS extractor, auditor, gate, and synthesizer information-flow architecture" width="1218" height="562" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.26754">Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control</a></div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Gaolei Li, Shuguang Xiong, Hongzhi Wang, Xuyang Teng, Meng Han</div>
