@@ -134,14 +134,14 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">DINR</div>
+<a class="paper-thumb paper-thumb--image" href="/files/detecting_is_not_resolving.pdf" aria-label="Open the Calibration Does Not Certify a Contrast paper PDF"><img src="/images/calibration-contrast-gavel-framework.png" alt="GAVEL identical-pair audit and pair-level correction framework for LLM evaluators" width="1146" height="616" loading="lazy" decoding="async"></a>
 <div class="paper-content">
-<div class="paper-title"><a href="https://arxiv.org/abs/2605.27157">Detecting Is Not Resolving: The Monitoring–Control Gap in Retrieval-Augmented LLMs</a></div>
+<div class="paper-title"><a href="/files/detecting_is_not_resolving.pdf">Calibration Does Not Certify a Contrast: Identification and Correction for LLM Evaluators</a></div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Chen Ye, Xuyang Teng, Bo Yang, Changting Lin, Meng Han</div>
-<div class="paper-desc">Demonstrates a structural monitoring–control gap in RAG: models detect contradictory evidence but this awareness fails to constrain final recommendations, and single-turn diagnostics systematically overestimate multi-turn safety.</div>
+<div class="paper-desc">GAVEL shows item calibration cannot validate experimental contrasts: paired audits reveal that Qwen judges greatly overstate a reminder intervention.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ARR / EMNLP</span>
-<span class="paper-links"><a href="/files/detecting_is_not_resolving.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.27157">[arXiv]</a></span>
+<span class="paper-badge under-review">Under review at AAAI 2027</span>
+<span class="paper-links"><a href="/files/detecting_is_not_resolving.pdf">[PDF]</a></span>
 </div>
 </div>
 </div>
