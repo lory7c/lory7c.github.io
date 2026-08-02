@@ -173,7 +173,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #bf360c, #e65100);">FV</div>
+<a class="paper-thumb paper-thumb--image" href="/files/fingerprint_vector.pdf" aria-label="Open the Fingerprint Vector paper PDF"><img src="/images/fingerprint-vector-framework.png" alt="Fingerprint Vector model fingerprint construction and verification process" width="1088" height="552" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title">Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition</div>
 <div class="paper-authors">Zhenhua Xu, Qichen Liu, Zhebo Wang, <strong>Zhe Yu</strong>, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han</div>
