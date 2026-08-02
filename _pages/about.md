@@ -121,7 +121,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">FIDES</div>
+<a class="paper-thumb paper-thumb--image" href="/files/fides.pdf" aria-label="Open the FIDES paper PDF"><img src="/images/fides-framework.png" alt="FIDES framework for faithful inference under retrieval-memory conflict" width="1218" height="540" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/fides.pdf">FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG</a></div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
