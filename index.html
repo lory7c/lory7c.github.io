@@ -37,7 +37,6 @@
 
         <h1>
           Zhe Yu <span class="name-divider" aria-hidden="true">|</span> <span class="name-cn">俞哲</span>
-          <button id="bio-copy" class="bio-copy" type="button" title="Copy short bio" aria-label="Copy short biography">🧑‍🚀</button>
         </h1>
 
         <p class="sidebar-role">Research Intern · Trustworthy Language Models &amp; Agentic AI</p>
@@ -75,7 +74,6 @@
 
     <div class="content-column">
       <header class="profile-intro" aria-labelledby="intro-title">
-        <p class="eyebrow">Research Profile</p>
         <h2 id="intro-title">Trustworthy Language Models &amp; Agentic AI</h2>
         <p>
           I am a Research Intern at the
@@ -116,7 +114,6 @@
       <div class="current-themes">
         <h3>Current themes</h3>
         <ul>
-          <li><strong>RLVR reward hacking:</strong> when proxy success diverges from intended success.</li>
           <li><strong>Multi-agent memory consistency:</strong> write validity, contamination, persistence, propagation, and repair.</li>
           <li><strong>Poisoning defense and credit:</strong> separating the source, amplifier, executor, and best remediation target.</li>
           <li><strong>Runtime monitoring of agent skills:</strong> identifying risky skills before unsafe tool actions.</li>
@@ -361,14 +358,11 @@
   <button id="back-to-top" class="back-to-top" type="button" title="Back to top" aria-label="Back to top">
     <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"></path></svg>
   </button>
-  <div id="toast" class="toast" role="status" aria-live="polite">Copied</div>
-
   <script>
     (function () {
       const filter = document.getElementById('tag-filter');
       const papers = Array.from(document.querySelectorAll('.paper-row'));
       const buttons = Array.from(document.querySelectorAll('.tag-btn'));
-      const toast = document.getElementById('toast');
       const backToTop = document.getElementById('back-to-top');
       const sectionNav = document.querySelector('.section-drip-nav');
       const footer = document.querySelector('.landscape-footer');
@@ -398,21 +392,6 @@
 
         papers.forEach(function (paper) {
           paper.hidden = tag !== 'all' && !tagsFor(paper).includes(tag);
-        });
-      });
-
-      function showToast(message) {
-        toast.textContent = message;
-        toast.classList.add('show');
-        window.setTimeout(function () { toast.classList.remove('show'); }, 1800);
-      }
-
-      document.getElementById('bio-copy').addEventListener('click', function () {
-        const bio = 'Zhe Yu studies trustworthy language models and agentic AI systems—from latent knowledge, provenance, conflict, and risk to reliable action, memory, and verifiable deployment.';
-        navigator.clipboard.writeText(bio).then(function () {
-          showToast('Short bio copied');
-        }).catch(function () {
-          showToast('Copy unavailable');
         });
       });
 
