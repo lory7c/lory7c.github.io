@@ -69,6 +69,19 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-grid">
 
 <div class="paper-card">
+<a class="paper-thumb paper-thumb--image" href="/files/plait_aaai2027.pdf" aria-label="Open the PLAIT paper PDF"><img src="/images/plait-framework.png" alt="PLAIT parent-preserving response, claim, and span audit planning framework" width="1092" height="534" loading="lazy" decoding="async"></a>
+<div class="paper-content">
+<div class="paper-title"><a href="/files/plait_aaai2027.pdf">PLAIT: From Hallucination Scores to Parent-Preserving Audit Plans</a></div>
+<div class="paper-authors"><a href="https://openreview.net/profile?id=~Zhe_Yu12"><strong>Zhe Yu</strong></a>, <a href="https://openreview.net/profile?id=~Yunzhao_Wei3">Yunzhao Wei</a>, <a href="https://openreview.net/profile?id=~Wenpeng_Xing1">Wenpeng Xing</a>, <a href="https://openreview.net/profile?id=~Wenjie_Luo5">Wenjie Luo</a>, <a href="https://openreview.net/profile?id=~Zaobo_He1">Zaobo He</a>, <a href="https://openreview.net/profile?id=~Quan_Chen10">Quan Chen</a>, <a href="https://openreview.net/profile?id=~Meng_Han7">Meng Han</a></div>
+<div class="paper-desc">PLAIT converts hallucination scores into parent-preserving response–claim–span audit plans, using whole-plan learning and exact budgeted optimization to capture more unsupported content per review minute.</div>
+<div class="paper-meta">
+<span class="paper-badge under-review">Under review at AAAI 2027</span>
+<span class="paper-links"><a href="/files/plait_aaai2027.pdf">[PDF]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
 <a class="paper-thumb paper-thumb--image" href="/files/disfcr.pdf" aria-label="Open the DISF paper PDF"><img src="/images/disf-architecture.png" alt="DISF dual-path architecture for hallucination detection" width="1224" height="600" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/disfcr.pdf">DISF: Detecting Hallucinations in Retrieval-Augmented Generation via Dual-path Internal State Forcing Framework</a></div>
