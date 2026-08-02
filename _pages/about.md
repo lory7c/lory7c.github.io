@@ -185,7 +185,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #1a4d8f, #2d6da8);">LA</div>
+<a class="paper-thumb paper-thumb--image" href="https://arxiv.org/abs/2604.05358" aria-label="Open the LatentAudit paper on arXiv"><img src="/images/latent-audit-framework.png" alt="LatentAudit white-box faithfulness monitor with optional verifiable deployment" width="980" height="416" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2604.05358">LatentAudit: Real-Time White-Box Faithfulness Monitoring for Retrieval-Augmented Generation with Verifiable Deployment</a></div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Meng Han</div>
