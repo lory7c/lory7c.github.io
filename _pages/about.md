@@ -82,7 +82,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">KINA</div>
+<a class="paper-thumb paper-thumb--image" href="/files/Knowing_Is_Not_Acting.pdf" aria-label="Open the Knowing Is Not Acting paper PDF"><img src="/images/knowing-is-not-acting-framework.png" alt="Knowing Is Not Acting framework: threat channels, early recognition, late action, and matched intervention" width="1010" height="606" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/Knowing_Is_Not_Acting.pdf">Knowing Is Not Acting: Representation–Action Dissociation in Indirect Prompt Injection</a></div>
 <div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Xingxing Yang, Meng Han</div>
