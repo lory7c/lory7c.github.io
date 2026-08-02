@@ -339,13 +339,6 @@ a {
   line-height: 1.2;
 }
 
-.full-paper-link {
-  margin-left: 8px;
-  font-size: 0.46em;
-  font-weight: 650;
-  white-space: nowrap;
-}
-
 .section-intro {
   max-width: 78ch;
   color: #4f5b66;
