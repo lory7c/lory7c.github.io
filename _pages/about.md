@@ -14,9 +14,54 @@ Hi, I am Zhe Yu (俞哲) from Hangzhou, China. I am a Research Intern at the **[
 
 > 📢 **Seeking Opportunities:** I am actively looking for **Research Assistant (RA)** positions (on-site or remote) and seeking **Fall 2027 PhD** opportunities. Please feel free to drop me an [email](mailto:zyu@zju-if.com) if you are interested!
 
-📄 **[Download my full CV (English)](/files/CV_Zhe_Yu_EN.pdf) | [获取完整中文简历](/files/CV_Zhe_Yu_CN.pdf)**
+<p class="cv-links">
+  <span aria-hidden="true">📄</span>
+  <strong><a href="/files/CV_Zhe_Yu_EN.pdf">Download my full CV (English)</a> <span class="cv-links__separator">|</span> <a href="/files/CV_Zhe_Yu_CN.pdf">获取完整中文简历</a></strong>
+</p>
 
-My research centers on **trustworthy language models** across three interconnected threads. First, I study the **internal mechanisms of knowledge grounding** — how parametric memory and retrieved evidence interact during generation, and how to detect failures like hallucinations, memory hijacking, and compositional reasoning collapse through white-box monitoring and mechanistic analysis. Second, I work on **representation–action dissociation** in reasoning and agentic systems — probing when and why models encode conflict information internally yet fail to route it into downstream decisions. Third, I explore **verifiable model ownership and decentralized trust** — combining fingerprinting, blockchain, and zero-knowledge proofs to build scalable, privacy-preserving attribution and deployment frameworks.
+<section class="research-hero" aria-labelledby="research-vision-title">
+  <p class="research-hero__eyebrow">Research vision</p>
+  <h1 id="research-vision-title">From latent knowledge to reliable action, memory, and verifiable trust.</h1>
+  <p>My research focuses on trustworthy language models and agentic AI systems. I study how models internally represent knowledge, evidence provenance, conflict, and risk; why these signals often fail to guide generation, tool use, and long-term memory; and how white-box monitoring and system-level safeguards can improve their reliability. I also develop verifiable mechanisms for model ownership and deployment, connecting internal reliability with external accountability.</p>
+</section>
+
+<span class='anchor' id='research-agenda'></span>
+
+# 🔬 Research Agenda
+
+Trustworthy agents must not only represent provenance, conflict, and risk internally. These signals should reliably inform what agents say, do, remember, reuse, and learn, while the resulting models and artifacts remain externally verifiable.
+
+<div class="research-path" aria-label="Research progression">
+  <article class="research-stage">
+    <span class="research-stage__number">01</span>
+    <h2>Internal representation</h2>
+    <p>Understand how models encode knowledge, retrieved evidence, source provenance, conflict, and hallucination risk through white-box monitoring and hidden-state analysis.</p>
+  </article>
+  <article class="research-stage">
+    <span class="research-stage__number">02</span>
+    <h2>Action and memory</h2>
+    <p>Study why decodable safety signals fail to guide generation, tool use, and memory updates, and turn monitoring into reliable system safeguards.</p>
+  </article>
+  <article class="research-stage">
+    <span class="research-stage__number">03</span>
+    <h2>Verifiable trust</h2>
+    <p>Build accountable deployment mechanisms for models and artifacts through information-flow control, fingerprinting, blockchain, and privacy-preserving verification.</p>
+  </article>
+</div>
+
+<div class="research-focus">
+  <h2>Current research themes</h2>
+  <ul>
+    <li><strong>RLVR reward hacking:</strong> when verifiable rewards are gamed and proxy success diverges from intended success.</li>
+    <li><strong>Multi-agent memory consistency:</strong> write validity, conflict, contamination, persistence, propagation, and repair across long-lived memories.</li>
+    <li><strong>Multi-agent poisoning defense and credit:</strong> separating the source, amplifier, executor, and most effective remediation target.</li>
+    <li><strong>Runtime monitoring of agent skills:</strong> using internal representations to identify risky skills before unsafe tool actions.</li>
+  </ul>
+</div>
+
+My longer-term goal is to understand **environment–verifier–memory co-evolution in lifelong agents**: how tasks, evaluation, memory, and oversight should adapt together as agents act, learn, and update over time.
+
+<span class='anchor' id='research-papers'></span>
 
 # 📚 Research Papers
 
@@ -217,6 +262,8 @@ My research centers on **trustworthy language models** across three interconnect
 
 </div>
 
+<span class='anchor' id='education'></span>
+
 # 📖 Education
 
 - *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
@@ -229,6 +276,8 @@ My research centers on **trustworthy language models** across three interconnect
   - Visiting Student, Optical Laboratory, supervised by Dr. Ziyang Zhang. Worked on dual all-fiber interferometer systems for orthogonal salinity/temperature detection (published in *Optics Communications*). This early cross-disciplinary research grounded my experimental rigor and shaped my approach to extracting and interpreting internal signals — a methodology central to my current work on LLM mechanistic interpretability and white-box auditing.
 - *2023 - Expected 2027*, **Communication University of Zhejiang**, Hangzhou, China
   - B.Eng. in Artificial Intelligence, supervised by Dr. Hao Zeng
+
+<span class='anchor' id='patents'></span>
 
 # 📜 Patents
 

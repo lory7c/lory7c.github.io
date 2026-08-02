@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhe Yu (俞哲)"
-description              : "Personal academic homepage of Zhe Yu (俞哲), focusing on Trustworthy LLMs and RAG Faithfulness."
+description              : "Trustworthy language models and agentic AI: from latent knowledge to reliable action, memory, and verifiable trust."
 repository               : "lory7c/lory7c.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhe Yu"
   avatar           : "images/avatar.jpg"
-  bio              : "B.Eng in Artificial Intelligence. Researcher in Trustworthy LLMs."
+  bio              : "B.Eng. in Artificial Intelligence. Researcher in trustworthy language models and agentic AI."
   location         : "Hangzhou, China"
   employer         : "Binjiang Institute of Zhejiang University"
   pubmed           : 

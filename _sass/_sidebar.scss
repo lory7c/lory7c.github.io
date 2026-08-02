@@ -92,15 +92,27 @@
   }
 
   img {
-    width: 150px;
-    height: 150px;
+    display: block;
+    width: 75px;
+    height: 75px;
+    max-width: none;
     object-fit: cover;
     border-radius: 50%;
 
     @include breakpoint($large) {
+      width: 150px;
+      height: 150px;
       padding: 5px;
       border: 1px solid $border-color;
     }
+  }
+}
+
+.profile_box > .author__avatar {
+  flex: 0 0 75px;
+
+  @include breakpoint($large) {
+    flex: none;
   }
 }
 
