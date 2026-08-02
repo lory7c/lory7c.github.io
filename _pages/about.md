@@ -95,7 +95,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #5c3d8f, #7b5aa6);">WT</div>
+<a class="paper-thumb paper-thumb--image" href="/files/cot_swap_neurips2026.pdf" aria-label="Open the Whose Thoughts paper PDF"><img src="/images/whose-thoughts-framework.png" alt="Whose Thoughts framework: CoT-Swap input, internal dissociation, behavioral outcome, and mechanistic repair" width="1076" height="518" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/cot_swap_neurips2026.pdf">Whose Thoughts? Chain-of-Thought Override in Reasoning-Tuned Language Models</a></div>
 <div class="paper-authors"><strong>Zhe Yu</strong>, Wenpeng Xing, Zhenhua Xu, Ruiqi Zhang, Meng Han</div>
