@@ -203,7 +203,7 @@ a {
 
 .profile-intro {
   position: relative;
-  padding: 22px 0 42px;
+  padding: 22px 0 18px;
   border: 0;
   border-radius: 0;
   background: #fff;
@@ -347,6 +347,10 @@ a {
 .section-block {
   padding: 38px 0 28px;
   border-top: 0;
+}
+
+.profile-intro + .section-block {
+  padding-top: 0;
 }
 
 .section-title {
@@ -1083,7 +1087,7 @@ a {
   }
 
   .profile-intro {
-    padding: 10px 0 28px;
+    padding: 10px 0 12px;
   }
 
   .research-stages,
