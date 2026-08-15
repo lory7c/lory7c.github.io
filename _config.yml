@@ -9,6 +9,8 @@
 title                    : "Zhe Yu (俞哲)"
 description              : "Trustworthy language models and agentic AI: from latent knowledge to reliable action, memory, and verifiable trust."
 repository               : "lory7c/lory7c.github.io"
+url                      : "https://lory7c.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics

@@ -417,22 +417,20 @@
       </a>
       <p class="footer-meta">
         <span>Zhe Yu · Hangzhou, China</span>
-        <span>Last updated: August 2, 2026</span>
+        <span>Last updated: August 15, 2026</span>
         <span>Layout adapted from <a href="https://github.com/w-r-s/academic-homepage-template">w-r-s/academic-homepage-template</a>.</span>
       </p>
     </div>
     <aside id="visitor-map" class="visitor-map" aria-label="Homepage visitor map" aria-live="polite">
       <div id="visitor-map-frame" class="visitor-map-frame">
-        <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=IF08ZbsA3iXnyu55Pfppr0C3PFdI45708vUhob6zDgI"></script>
-        <div id="visitor-map-fallback" class="visitor-map-fallback" hidden>
-          <svg aria-hidden="true" viewBox="0 0 64 64">
-            <circle cx="32" cy="32" r="24"></circle>
-            <path d="M8 32h48M32 8c8 7 12 15 12 24S40 49 32 56M32 8C24 15 20 23 20 32s4 17 12 24M13 20h38M13 44h38"></path>
-          </svg>
-          <span>Visitor globe unavailable</span>
-        </div>
+        <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=l9DONxl5dILJUF_b3Tz43RVwJJIOdvp4xAuZ2FUbDnU&amp;cl=ffffff&amp;w=a"></script>
+        <noscript>
+          <a class="visitor-map-image-link" href="https://mapmyvisitors.com/web/1c7hk" title="Visit tracker">
+            <img class="visitor-map-image" src="https://mapmyvisitors.com/map.png?d=l9DONxl5dILJUF_b3Tz43RVwJJIOdvp4xAuZ2FUbDnU&amp;cl=ffffff" alt="Map showing visitors to lory7c.github.io">
+          </a>
+        </noscript>
       </div>
-      <a id="visitor-map-link" class="visitor-map-link" href="https://mapmyvisitors.com/web/1c73q" title="Visit tracker">Visitor globe</a>
+      <a id="visitor-map-link" class="visitor-map-link" href="https://mapmyvisitors.com/web/1c7hk" title="Visit statistics">Visitor map</a>
     </aside>
   </footer>
 
@@ -448,49 +446,66 @@
       const backToTop = document.getElementById('back-to-top');
       const visitorMap = document.getElementById('visitor-map');
       const visitorMapFrame = document.getElementById('visitor-map-frame');
-      const visitorMapFallback = document.getElementById('visitor-map-fallback');
       const visitorMapLink = document.getElementById('visitor-map-link');
-      const visitorGlobeScript = document.getElementById('mmvst_globe');
+      const visitorMapScript = document.getElementById('mapmyvisitors');
+      const visitorMapImageUrl = 'https://mapmyvisitors.com/map.png?d=l9DONxl5dILJUF_b3Tz43RVwJJIOdvp4xAuZ2FUbDnU&cl=ffffff';
 
-      function setVisitorMapAvailable(available) {
-        if (!visitorMap || !visitorMapFallback || !visitorMapLink) return;
-        visitorMap.classList.toggle('is-offline', !available);
-        visitorMapFallback.hidden = available;
-        visitorMapLink.hidden = false;
+      function showVisitorMapFallback() {
+        if (!visitorMap || !visitorMapFrame || !visitorMapLink) return;
+        if (visitorMapFrame.querySelector('.visitor-map-image-link')) return;
+
+        visitorMap.classList.add('is-offline');
+
+        const fallbackLink = document.createElement('a');
+        fallbackLink.className = 'visitor-map-image-link';
+        fallbackLink.href = visitorMapLink.href;
+        fallbackLink.title = 'Visit tracker';
+        fallbackLink.setAttribute('aria-label', 'Open visitor statistics');
+
+        const fallbackImage = document.createElement('img');
+        fallbackImage.className = 'visitor-map-image';
+        fallbackImage.src = visitorMapImageUrl;
+        fallbackImage.alt = 'Map showing visitors to lory7c.github.io';
+
+        fallbackLink.appendChild(fallbackImage);
+        visitorMapFrame.appendChild(fallbackLink);
       }
 
-      if (visitorMapFrame && visitorGlobeScript) {
-        let globeObserver;
+      if (visitorMapFrame && visitorMapScript) {
+        let mapObserver;
 
-        function connectVisitorGlobe() {
-          const globe = visitorMapFrame.querySelector('.mmvst_outer');
-          if (!globe) return false;
+        function connectVisitorMap() {
+          const mapWidget = visitorMapFrame.querySelector('#mapmyvisitors-widget');
+          if (!mapWidget) return false;
 
-          const globeLink = globe.querySelector('#mmvst_a');
-          if (globeLink && visitorMapLink) {
-            globeLink.href = visitorMapLink.href;
-            globeLink.title = 'Visit tracker';
-            globeLink.setAttribute('aria-label', 'Open visitor statistics');
+          if (visitorMapLink) {
+            if (mapWidget.href !== visitorMapLink.href) mapWidget.href = visitorMapLink.href;
+            mapWidget.title = 'Visit tracker';
+            mapWidget.setAttribute('aria-label', 'Open visitor statistics');
           }
 
-          setVisitorMapAvailable(true);
-          if (globeObserver) globeObserver.disconnect();
+          if (visitorMap) visitorMap.classList.remove('is-offline');
           return true;
         }
 
-        globeObserver = new MutationObserver(connectVisitorGlobe);
-        globeObserver.observe(visitorMapFrame, { childList: true });
-
-        visitorGlobeScript.addEventListener('error', function () {
-          if (globeObserver) globeObserver.disconnect();
-          setVisitorMapAvailable(false);
+        mapObserver = new MutationObserver(connectVisitorMap);
+        mapObserver.observe(visitorMapFrame, {
+          childList: true,
+          subtree: true,
+          attributes: true,
+          attributeFilter: ['href']
         });
 
-        if (!connectVisitorGlobe()) {
-          window.setTimeout(function () {
-            if (!connectVisitorGlobe()) setVisitorMapAvailable(false);
-          }, 6000);
-        }
+        visitorMapScript.addEventListener('error', function () {
+          if (mapObserver) mapObserver.disconnect();
+          showVisitorMapFallback();
+        });
+
+        connectVisitorMap();
+        window.setTimeout(function () {
+          if (!connectVisitorMap()) showVisitorMapFallback();
+          if (mapObserver) mapObserver.disconnect();
+        }, 8000);
       }
 
       function scrollPageByWheel(delta) {
