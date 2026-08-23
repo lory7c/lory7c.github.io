@@ -82,6 +82,32 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
+<a class="paper-thumb paper-thumb--image" href="/files/fides.pdf" aria-label="Open the FIDES paper PDF"><img src="/images/fides-framework.png" alt="FIDES framework for faithful inference under retrieval-memory conflict" width="1218" height="540" loading="lazy" decoding="async"></a>
+<div class="paper-content">
+<div class="paper-title"><a href="/files/fides.pdf">FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG</a></div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
+<div class="paper-desc">Reveals token-level conflict concentration in retrieval-memory conflict and proposes a training-free decoder that fuses three complementary internal signals for per-token selective intervention.</div>
+<div class="paper-meta">
+<span class="paper-badge accepted">Accepted at EMNLP 2026</span>
+<span class="paper-links"><a href="/files/fides.pdf">[PDF]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
+<a class="paper-thumb paper-thumb--image" href="/files/composition_collapse.pdf" aria-label="Open the Composition Collapse paper PDF"><img src="/images/composition-collapse-framework.png" alt="Composition Collapse double-gate protocol for atomic stability and compositional reasoning" width="1736" height="980" loading="lazy" decoding="async"></a>
+<div class="paper-content">
+<div class="paper-title"><a href="https://arxiv.org/abs/2605.26789">Composition Collapse: Stable Factual Knowledge Does Not Imply Compositional Reasoning</a></div>
+<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Yunzhao Wei, Hongzhi Wang, Xuyang Teng, Meng Han</div>
+<div class="paper-desc">Introduces a double-gate protocol that separates atomic knowledge stability from compositional reasoning, revealing post-training recipes can diverge by >40 pp in composition failure at matched atoms.</div>
+<div class="paper-meta">
+<span class="paper-badge accepted">Accepted at EMNLP 2026</span>
+<span class="paper-links"><a href="/files/composition_collapse.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26789">[arXiv]</a></span>
+</div>
+</div>
+</div>
+
+<div class="paper-card">
 <a class="paper-thumb paper-thumb--image" href="/files/plait_aaai2027.pdf" aria-label="Open the PLAIT paper PDF"><img src="/images/plait-framework.png" alt="PLAIT parent-preserving response, claim, and span audit planning framework" width="1092" height="534" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="/files/plait_aaai2027.pdf">PLAIT: From Hallucination Scores to Parent-Preserving Audit Plans</a></div>
@@ -147,19 +173,6 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<a class="paper-thumb paper-thumb--image" href="/files/fides.pdf" aria-label="Open the FIDES paper PDF"><img src="/images/fides-framework.png" alt="FIDES framework for faithful inference under retrieval-memory conflict" width="1218" height="540" loading="lazy" decoding="async"></a>
-<div class="paper-content">
-<div class="paper-title"><a href="/files/fides.pdf">FIDES: Faithful Inference via Deep Evidence Signals for Retrieval-Memory Conflict in RAG</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Tiancheng Zhao, Mohan Li, Changting Lin, Meng Han</div>
-<div class="paper-desc">Reveals token-level conflict concentration in retrieval-memory conflict and proposes a training-free decoder that fuses three complementary internal signals for per-token selective intervention.</div>
-<div class="paper-meta">
-<span class="paper-badge accepted">Accepted at EMNLP 2026</span>
-<span class="paper-links"><a href="/files/fides.pdf">[PDF]</a></span>
-</div>
-</div>
-</div>
-
-<div class="paper-card">
 <a class="paper-thumb paper-thumb--image" href="/files/cordon_mas.pdf" aria-label="Open the CORDON-MAS paper PDF"><img src="/images/cordon-mas-framework.png" alt="CORDON-MAS extractor, auditor, gate, and synthesizer information-flow architecture" width="1218" height="562" loading="lazy" decoding="async"></a>
 <div class="paper-content">
 <div class="paper-title"><a href="https://arxiv.org/abs/2605.26754">Cordon-MAS: Defending RAG against Knowledge Poisoning via Information-Flow Control</a></div>
@@ -168,19 +181,6 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at EMNLP 2026</span>
 <span class="paper-links"><a href="/files/cordon_mas.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26754">[arXiv]</a></span>
-</div>
-</div>
-</div>
-
-<div class="paper-card">
-<a class="paper-thumb paper-thumb--image" href="/files/composition_collapse.pdf" aria-label="Open the Composition Collapse paper PDF"><img src="/images/composition-collapse-framework.png" alt="Composition Collapse double-gate protocol for atomic stability and compositional reasoning" width="1736" height="980" loading="lazy" decoding="async"></a>
-<div class="paper-content">
-<div class="paper-title"><a href="https://arxiv.org/abs/2605.26789">Composition Collapse: Stable Factual Knowledge Does Not Imply Compositional Reasoning</a></div>
-<div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Yunzhao Wei, Hongzhi Wang, Xuyang Teng, Meng Han</div>
-<div class="paper-desc">Introduces a double-gate protocol that separates atomic knowledge stability from compositional reasoning, revealing post-training recipes can diverge by >40 pp in composition failure at matched atoms.</div>
-<div class="paper-meta">
-<span class="paper-badge accepted">Accepted at EMNLP 2026</span>
-<span class="paper-links"><a href="/files/composition_collapse.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26789">[arXiv]</a></span>
 </div>
 </div>
 </div>
