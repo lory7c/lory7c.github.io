@@ -179,7 +179,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Gaolei Li, Shuguang Xiong, Hongzhi Wang, Xuyang Teng, Meng Han</div>
 <div class="paper-desc">A multi-agent compartmentalized defense that enforces the Cordon Principle architecturally, reducing knowledge-poisoning attack success rate by 92.4%.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at ICLR 2027</span>
+<span class="paper-badge under-review">To be submitted to ICLR 2027</span>
 <span class="paper-links"><a href="/files/cordon_mas.pdf">[PDF]</a> <a href="https://arxiv.org/abs/2605.26754">[arXiv]</a></span>
 </div>
 </div>
