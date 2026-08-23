@@ -192,7 +192,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 <div class="paper-authors">Zhenhua Xu, Qichen Liu, Zhebo Wang, <strong>Zhe Yu</strong>, Xixiang Zhao, Wenpeng Xing, Dezhang Kong, Mohan Li, Meng Han</div>
 <div class="paper-desc">Enables scalable and efficient model fingerprint transfer via vector addition for ownership verification.</div>
 <div class="paper-meta">
-<span class="paper-badge under-review">Under review at EMNLP 2026</span>
+<span class="paper-badge under-review">Under review at ARR (October 2026)</span>
 </div>
 </div>
 </div>
