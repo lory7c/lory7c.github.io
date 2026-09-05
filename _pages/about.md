@@ -300,8 +300,3 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 - **Zhe Yu**, Wenpeng Xing, Meng Han. *A hallucination detection method based on dual-path internal state forcing logic for retrieval-augmented generation in large language models.* Pending Patent Application No. 202610260408X (Under Review).
 - Meng Han, **Zhe Yu**, Jiayan Hu, Rongchang Li, Wenpeng Xing, Jingyi Yu, Zhen Hong, et al. *A post-processing method, system, device, and medium for hallucination detection in large language models based on adaptive order statistics aggregation.* Chinese Patent Application No. 2026107898102, filed Jun 3, 2026. (Pending)
 - **Zhe Yu**, Jiayan Hu, Jingyi Yu, Weihang Yu, Wenpeng Xing, Jing Xiong, Yourong Chen, Zhen Hong, et al. *A hallucination detection method, system, and device for large language models based on multi-dimensional heterogeneous feature fusion.* Chinese Patent Application No. 2026107899270, filed Jun 3, 2026. (Pending)
-
-<div align="center" style="margin-top: 3em;">
-<div style="width: 140px; margin: 0 auto;"><script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=IF08ZbsA3iXnyu55Pfppr0C3PFdI45708vUhob6zDgI"></script></div>
-<a href="https://mapmyvisitors.com/web/1c73q" title="Visit tracker">Visitor globe</a>
-</div>

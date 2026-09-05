@@ -884,21 +884,6 @@ a {
   border-radius: 4px;
 }
 
-.visitor-map-image-link,
-.visitor-map-image {
-  display: block;
-  width: 100%;
-}
-
-.visitor-map-image {
-  height: auto;
-  border: 0;
-}
-
-.visitor-map.is-offline {
-  opacity: 0.58;
-}
-
 .visitor-map-link {
   display: inline-block;
   margin-top: 4px;
