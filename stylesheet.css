@@ -349,6 +349,19 @@ a {
   border-top: 0;
 }
 
+#research {
+  padding-bottom: 12px;
+}
+
+#academic-services {
+  padding-top: 16px;
+  padding-bottom: 10px;
+}
+
+#academic-services + #publications {
+  padding-top: 18px;
+}
+
 .profile-intro + .section-block {
   padding-top: 0;
 }
