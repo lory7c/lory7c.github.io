@@ -280,7 +280,7 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 
 # Experience & Education
 
-- <img class="institution-mark-inline" src="/images/institutions/hkust-gz.png" alt="" aria-hidden="true" width="500" height="133"> *May 2026 - Present*, **Hong Kong University of Science and Technology (Guangzhou)**
+- <img class="institution-mark-inline" src="/images/institutions/hkust-gz.png" alt="" aria-hidden="true" width="500" height="133"> *May 2026 - Present*, **Hong Kong University of Science and Technology (Guangzhou)**, Guangzhou, China
   - Research Assistant, advised by **[Prof. Chengwei Qin](https://qcwthu.github.io/)**
 - <img class="institution-mark-inline" src="/images/institutions/zhejiang-university.png" alt="" aria-hidden="true" width="826" height="238"> *Nov 2025 - Present*, **[Binjiang Institute of Zhejiang University](https://ifrc-zju.github.io/)** ([IFRC Lab](https://ifrc-zju.github.io/)), Hangzhou, China
   - Research Intern, supervised by **[Prof. Meng Han](https://scholar.google.com/citations?user=TnCrl1cAAAAJ&hl=en)** and Dr. Wenpeng Xing
