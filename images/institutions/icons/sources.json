@@ -1,0 +1,59 @@
+{
+  "note": "Official website icons; converted to PNG without changing the artwork.",
+  "icons": [
+    {
+      "name": "hkust-gz",
+      "source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png",
+      "size": [
+        192,
+        192
+      ],
+      "file": "hkust-gz.png"
+    },
+    {
+      "name": "zhejiang",
+      "source": "https://www.zju.edu.cn/_upload/tpl/0b/bf/3007/template3007/favicon.ico",
+      "size": [
+        16,
+        16
+      ],
+      "file": "zhejiang.png"
+    },
+    {
+      "name": "george-mason",
+      "source": "https://www.gmu.edu/themes/custom/sf_mason_2024/favicon.ico",
+      "size": [
+        33,
+        33
+      ],
+      "file": "george-mason.png"
+    },
+    {
+      "name": "griffith",
+      "source": "https://www.griffith.edu.au/__data/assets/file/0012/372/favicon.ico",
+      "size": [
+        16,
+        16
+      ],
+      "file": "griffith.png"
+    },
+    {
+      "name": "wake-forest",
+      "source": "https://prod.wp.cdn.aws.wfu.edu/wfu-gutenberg-quarantheme/assets/images/apple-touch-icon.png",
+      "size": [
+        180,
+        180
+      ],
+      "file": "wake-forest.png"
+    },
+    {
+      "name": "alibaba",
+      "source": "https://static.alibabagroup.com/static/favicon.ico",
+      "size": [
+        32,
+        32
+      ],
+      "file": "alibaba.png"
+    }
+  ]
+}
