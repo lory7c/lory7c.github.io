@@ -50,16 +50,6 @@ Trustworthy agents must not only represent provenance, conflict, and risk intern
   </article>
 </div>
 
-<div class="research-focus">
-  <h2>Current research themes</h2>
-  <ul>
-    <li><strong>RLVR reward hacking:</strong> when verifiable rewards are gamed and proxy success diverges from intended success.</li>
-    <li><strong>Multi-agent memory consistency:</strong> write validity, conflict, contamination, persistence, propagation, and repair across long-lived memories.</li>
-    <li><strong>Multi-agent poisoning defense and credit:</strong> separating the source, amplifier, executor, and most effective remediation target.</li>
-    <li><strong>Runtime monitoring of agent skills:</strong> using internal representations to identify risky skills before unsafe tool actions.</li>
-  </ul>
-</div>
-
 My longer-term goal is to understand **environment–verifier–memory co-evolution in lifelong agents**: how tasks, evaluation, memory, and oversight should adapt together as agents act, learn, and update over time.
 
 <span class='anchor' id='research-papers'></span>
