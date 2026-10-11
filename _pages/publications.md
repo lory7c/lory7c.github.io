@@ -70,7 +70,7 @@
 
 15. **Fingerprint Vector: Enabling Scalable and Efficient Model Fingerprint Transfer via Vector Addition**  
     Zhe Yu (Co-author)  
-    Status: Under Review at ARR / EMNLP · [[PDF]](../files/fingerprint_vector.pdf) · [[OpenReview]](https://openreview.net/forum?id=65qXOowHo9)
+    Status: Under Review at ARR / EMNLP · [[PDF]](../files/fingerprint_vector.pdf)
 
 16. **ZK-VOT: Establishing On-Chain/Off-Chain Mutual Trust via Zero-Knowledge Verifiable Oracle Transmission**  
     Zhe Yu (Co-author)  
