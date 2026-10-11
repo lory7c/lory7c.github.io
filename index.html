@@ -14,7 +14,7 @@
   <meta property="og:image" content="https://lory7c.github.io/images/avatar.jpg">
   <link rel="canonical" href="https://lory7c.github.io/">
   <link rel="icon" type="image/png" href="images/favicon-32x32.png">
-  <link rel="stylesheet" href="stylesheet.css?v=20261001a">
+  <link rel="stylesheet" href="stylesheet.css?v=20261012-story">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -117,31 +117,49 @@
 
     <section id="research" class="page-section section-block" aria-labelledby="research-title">
       <h2 id="research-title" class="section-title">Research Agenda</h2>
-      <p class="section-intro">
-        Trustworthy agents must not only represent provenance, conflict, and risk internally. These signals should reliably inform what agents say, do, remember, reuse, and learn, while the resulting models and artifacts remain externally verifiable.
-      </p>
-
-      <div class="research-stages">
-        <article class="research-stage">
-          <span class="stage-number">01</span>
-          <h3>Internal representation</h3>
-          <p>Understand how models encode knowledge, retrieved evidence, source provenance, conflict, and hallucination risk through white-box monitoring and hidden-state analysis.</p>
-        </article>
-        <article class="research-stage">
-          <span class="stage-number">02</span>
-          <h3>Action and memory</h3>
-          <p>Study why decodable safety signals fail to guide generation, tool use, and memory updates, and turn monitoring into reliable system safeguards.</p>
-        </article>
-        <article class="research-stage">
-          <span class="stage-number">03</span>
-          <h3>Verifiable trust</h3>
-          <p>Build accountable deployment mechanisms through information-flow control, model fingerprinting, blockchain, and privacy-preserving verification.</p>
-        </article>
+      <div class="research-story">
+        <div class="story-intro">
+          <span class="story-eyebrow">From understanding to reliability</span>
+          <h3>From internal signals to reliable agents.</h3>
+          <p>I study how evidence and risk are represented inside models, how these signals shape behavior, and how agents can act together reliably.</p>
+        </div>
+        <ol class="story-path" aria-label="Three connected research directions">
+          <li class="story-step">
+            <div class="story-marker" aria-hidden="true">01</div>
+            <span class="story-chapter">Understand</span>
+            <h4>What does the model represent?</h4>
+            <p>Reveal how models encode evidence, provenance, conflict, and risk. Use probes and controlled interventions to distinguish readable signals from causal influence.</p>
+            <span class="story-focus">Internal representations</span>
+            <div class="story-papers" aria-label="Papers on representations and evidence">
+              <a href="files/disfcr.pdf">DISF</a><a href="fides/">FIDES</a><a href="https://arxiv.org/abs/2605.26778">The Attribution Blind Spot</a>
+            </div>
+          </li>
+          <li class="story-step">
+            <div class="story-marker" aria-hidden="true">02</div>
+            <span class="story-chapter">Connect</span>
+            <h4>When does a signal change an action?</h4>
+            <p>Explain why represented knowledge and risk can fail to guide behavior. Develop interventions that improve evidence use, resist malicious instructions, and correct decisions.</p>
+            <span class="story-focus">Reasoning and action</span>
+            <div class="story-papers" aria-label="Papers on representations and behavior">
+              <a href="https://arxiv.org/abs/2610.05295">Readable Before Actionable</a><a href="files/decodable_but_unresolved.pdf">Decodable but Unresolved</a><a href="files/latenttriad_iclr2027.pdf">LatentTriad</a>
+            </div>
+          </li>
+          <li class="story-step">
+            <div class="story-marker" aria-hidden="true">03</div>
+            <span class="story-chapter">Coordinate</span>
+            <h4>How do agents stay consistent?</h4>
+            <p>Follow evidence across shared memory, information handoffs, and execution. Build monitoring and recovery mechanisms for dependable multi-agent collaboration.</p>
+            <span class="story-focus">Multi-agent systems</span>
+            <div class="story-papers" aria-label="Papers on multi-agent collaboration">
+              <a href="https://arxiv.org/abs/2610.08101">Beyond Corrected Memory</a><a href="https://arxiv.org/abs/2605.26754">Cordon-MAS</a>
+            </div>
+          </li>
+        </ol>
+        <div class="story-horizon">
+          <span class="story-horizon-label"><span aria-hidden="true">↗</span> Long-term vision</span>
+          <p>Agents that remain <strong>understandable, correctable, and reliable</strong> as they learn, interact, and operate over time.</p>
+        </div>
       </div>
-
-      <p class="long-term">
-        My longer-term goal is to understand <strong>environment–verifier–memory co-evolution in lifelong agents</strong>: how tasks, evaluation, memory, and oversight should adapt together as agents act, learn, and update over time.
-      </p>
     </section>
 
     <section id="academic-services" class="page-section section-block" aria-labelledby="academic-services-title">
