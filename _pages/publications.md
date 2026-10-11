@@ -60,7 +60,7 @@
     Wenpeng Xing (First Author), Zhe Yu (Second Author)  
     Status: Accepted at ACM TURC 2026 · [[CFP]](https://www.acmturc.com/2026/cn/callforpaper.html) · [[PDF]](../files/zkfpe.pdf)
 
-13. **Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management**  
+13. **[Scalable and Trusted Metadata-Coordinated Tiered Off-Chain Storage with Dynamic On-Chain Mapping for Recovery-Safe and Low-Latency IoT Data Management](https://www.mdpi.com/2079-9292/15/13/2806)**<br>
     Zhe Yu (Co-author)  
     Status: Published in Electronics (MDPI)
 

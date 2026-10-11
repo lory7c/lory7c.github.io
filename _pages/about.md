@@ -237,13 +237,14 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<div class="paper-thumb" style="background: linear-gradient(135deg, #006064, #00838f);">IoT</div>
+<a class="paper-thumb" href="https://www.mdpi.com/2079-9292/15/13/2806"><img src="/images/iot-tiered-storage-framework.png" alt="Metadata-coordinated tiered off-chain IoT storage architecture" style="width:100%;height:100%;object-fit:contain;"></a>
 <div class="paper-content">
-<div class="paper-title">Trusted Metadata-Coordinated Tiered Off-Chain Storage for Recovery-Safe and Low-Latency IoT Data Management</div>
-<div class="paper-authors">Weiping Yu, Weihan Wang, Mingyuan Yan, Keyang He, <strong>Zhe Yu</strong>, Wenpeng Xing, Liyuan Liu, Meng Han</div>
-<div class="paper-desc">Trusted metadata-coordinated tiered off-chain storage for IoT data management with recovery safety and low latency.</div>
+<div class="paper-title"><a href="https://www.mdpi.com/2079-9292/15/13/2806">Scalable and Trusted Metadata-Coordinated Tiered Off-Chain Storage with Dynamic On-Chain Mapping for Recovery-Safe and Low-Latency IoT Data Management</a></div>
+<div class="paper-authors">Weiping Yu*, Weihan Wang*, Mingyuan Yan, Keyang He, <strong>Zhe Yu</strong>, Wenpeng Xing, Liyuan Liu, Meng Han</div>
+<div class="paper-desc">Coordinates adaptive tiered storage, batched on-chain mapping, and rollback-safe recovery for auditable IoT data migration, reducing access latency and metadata transactions in simulation.</div>
 <div class="paper-meta">
-<span class="paper-badge published">Electronics (MDPI)</span>
+<span class="paper-badge published">Electronics (MDPI), 2026</span>
+<span class="paper-links"><a href="/files/electronics_iot_offchain.pdf">[PDF]</a> <a href="https://www.mdpi.com/2079-9292/15/13/2806">[Publisher]</a></span>
 </div>
 </div>
 </div>
