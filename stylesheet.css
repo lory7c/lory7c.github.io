@@ -10,7 +10,7 @@
   --accent-soft: #f2f5fa;
   --accent-rgb: 0, 63, 136;
   --shadow: 0 8px 24px rgba(32, 38, 46, 0.07);
-  --page-max-width: 1100px;
+  --page-max-width: 1360px;
   --page-side-space: 20px;
 }
 
@@ -135,8 +135,8 @@ a {
 
 .page-shell {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
-  gap: 48px;
+  grid-template-columns: 240px minmax(0, 1fr);
+  gap: 36px;
   width: min(calc(100% - var(--page-side-space) - var(--page-side-space)), var(--page-max-width));
   margin: 0 auto;
   padding-top: 112px;
@@ -216,7 +216,7 @@ a {
 }
 
 .profile-intro > p {
-  max-width: 74ch;
+  max-width: none;
 }
 
 .research-line {
@@ -392,7 +392,7 @@ a {
 }
 
 .section-intro {
-  max-width: 78ch;
+  max-width: none;
   color: #4f5b66;
 }
 
@@ -514,7 +514,7 @@ a {
 }
 
 .long-term {
-  max-width: 92ch;
+  max-width: none;
   padding-top: 4px;
 }
 
