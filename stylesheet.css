@@ -1411,3 +1411,11 @@ a {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Keep advisor and mentor links visibly identifiable in both themes. */
+a.mentor-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-skip-ink: auto;
+}
