@@ -435,8 +435,8 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.25em;
-  height: 1.25em;
+  width: 1.4375em;
+  height: 1.4375em;
 }
 
 .news-institution:hover,
@@ -446,8 +446,8 @@ a {
 
 .news-institution-icon {
   display: block;
-  width: 1.25em;
-  height: 1.25em;
+  width: 1.4375em;
+  height: 1.4375em;
 }
 
 .news-section + #research {
