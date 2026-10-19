@@ -245,6 +245,33 @@ a {
   max-width: none;
 }
 
+.bio-typewriter {
+  min-height: 1.5em;
+  margin: 0 0 18px;
+  color: var(--accent);
+  font-family: var(--font-body);
+  font-size: clamp(20px, 2.2vw, 28px);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.bio-typewriter-cursor {
+  display: inline-block;
+  height: 1.05em;
+  margin-left: 7px;
+  border-right: 2px solid currentColor;
+  vertical-align: -0.12em;
+  animation: bio-caret 1s step-end infinite;
+}
+
+@keyframes bio-caret {
+  50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bio-typewriter-cursor { display: none; }
+}
+
 .research-line {
   margin-top: 22px !important;
   padding: 0;
