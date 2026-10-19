@@ -118,7 +118,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: min(calc(100% - var(--page-side-space) - var(--page-side-space)), var(--page-max-width));
-  min-height: 48px;
+  min-height: 54px;
   margin: 0 auto;
 }
 
@@ -165,16 +165,16 @@ a {
   gap: 36px;
   width: min(calc(100% - var(--page-side-space) - var(--page-side-space)), var(--page-max-width));
   margin: 0 auto;
-  padding-top: 88px;
+  padding-top: 94px;
 }
 
 .page-section {
-  scroll-margin-top: 68px;
+  scroll-margin-top: 74px;
 }
 
 .profile-sidebar {
   position: sticky;
-  top: 72px;
+  top: 78px;
   align-self: start;
 }
 
@@ -1181,7 +1181,7 @@ a {
   .page-shell {
     grid-template-columns: 1fr;
     gap: 30px;
-    padding-top: 76px;
+    padding-top: 82px;
   }
 
   .profile-sidebar {
@@ -1229,7 +1229,7 @@ a {
 
 @media (max-width: 700px) {
   .site-nav-shell {
-    min-height: 43px;
+    min-height: 48px;
   }
 
   .site-brand {
@@ -1253,12 +1253,12 @@ a {
   }
 
   .page-section {
-    scroll-margin-top: 59px;
+    scroll-margin-top: 64px;
   }
 
   .page-shell {
     gap: 22px;
-    padding-top: 71px;
+    padding-top: 76px;
   }
 
   .visitor-map {
