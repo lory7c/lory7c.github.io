@@ -113,3 +113,8 @@
   border-radius: 3px;
   background: #fff;
 }
+
+[data-theme="dark"] .institution-icon--transparent {
+  background: transparent;
+  border-radius: 0;
+}
