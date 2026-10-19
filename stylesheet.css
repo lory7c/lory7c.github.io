@@ -248,9 +248,9 @@ a {
 .bio-typewriter {
   min-height: 1.5em;
   margin: 0 0 18px;
-  color: var(--accent);
+  color: #607b98;
   font-family: var(--font-body);
-  font-size: clamp(18px, 1.9vw, 24px);
+  font-size: clamp(16px, 1.7vw, 22px);
   font-weight: 400;
   line-height: 1.5;
 }
