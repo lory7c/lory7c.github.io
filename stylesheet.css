@@ -411,7 +411,7 @@ a {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   margin-top: 4px;
 }
 
@@ -419,23 +419,19 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
-  border: 1px solid #e6e9ec;
-  border-radius: 7px;
-  background: #fff;
+  width: 1.05em;
+  height: 1.05em;
 }
 
 .news-institution:hover,
 .news-institution:focus-visible {
-  border-color: var(--accent);
-  background: #f5f9fc;
+  opacity: 0.75;
 }
 
 .news-institution-icon {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 1.05em;
+  height: 1.05em;
 }
 
 .news-section + #research {
