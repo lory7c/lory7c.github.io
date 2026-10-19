@@ -459,9 +459,13 @@ a {
 .news-label {
   margin: 0 0 6px;
   color: var(--accent-dark);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 650;
   line-height: 1.4;
+}
+
+.news-label time {
+  font-size: 14px;
 }
 
 .news-entry p {
