@@ -1,0 +1,115 @@
+:root { color-scheme: light; }
+
+.theme-toggle {
+  display: inline-grid;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+}
+.theme-toggle:hover { background: var(--accent-soft); }
+.theme-toggle svg {
+  width: 19px;
+  height: 19px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.theme-toggle .theme-sun { display: none; }
+[data-theme="dark"] .theme-toggle .theme-moon { display: none; }
+[data-theme="dark"] .theme-toggle .theme-sun { display: block; }
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --paper: #111923;
+  --surface: #192432;
+  --ink: #e2e9f1;
+  --muted: #a4b2c3;
+  --line: #324153;
+  --accent: #8eb9ed;
+  --accent-bright: #8eb9ed;
+  --accent-dark: #b8d5fa;
+  --accent-soft: #1c2e43;
+  --accent-rgb: 142, 185, 237;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+[data-theme="dark"] .site-header {
+  background: rgba(17, 25, 35, 0.96);
+  border-color: var(--line);
+}
+[data-theme="dark"] .site-nav-links a,
+[data-theme="dark"] .sidebar-role,
+[data-theme="dark"] .opportunity,
+[data-theme="dark"] .contact-links a,
+[data-theme="dark"] .contact-links .contact-item,
+[data-theme="dark"] .tag-btn { color: var(--ink); }
+[data-theme="dark"] .section-intro,
+[data-theme="dark"] .news-thanks,
+[data-theme="dark"] .research-stage p,
+[data-theme="dark"] .authors,
+[data-theme="dark"] .timeline-item p,
+[data-theme="dark"] .service-entry ul { color: #b7c3d1; }
+[data-theme="dark"] .timeline-item .institution-location { color: var(--muted); }
+[data-theme="dark"] .bio-typewriter { color: #9bb2cc; }
+[data-theme="dark"] .site-nav-links .nav-cv,
+[data-theme="dark"] .contact-links a,
+[data-theme="dark"] .contact-links .contact-item,
+[data-theme="dark"] .section-title,
+[data-theme="dark"] .current-themes,
+[data-theme="dark"] .tag-btn,
+[data-theme="dark"] .publication-list,
+[data-theme="dark"] .paper-row,
+[data-theme="dark"] .timeline-item,
+[data-theme="dark"] .landscape-footer { border-color: var(--line); }
+[data-theme="dark"] .contact-links a,
+[data-theme="dark"] .contact-links .contact-item,
+[data-theme="dark"] .current-themes,
+[data-theme="dark"] .tag-btn,
+[data-theme="dark"] .publication-list,
+[data-theme="dark"] .paper-row,
+[data-theme="dark"] .paper-row.featured,
+[data-theme="dark"] .landscape-footer,
+[data-theme="dark"] .visitor-map-covered .visitor-map-frame::after {
+  background: var(--surface);
+}
+[data-theme="dark"] .contact-links a:hover,
+[data-theme="dark"] .tag-btn:hover,
+[data-theme="dark"] .paper-row:hover { background: #223247; }
+[data-theme="dark"] .contact-links a:hover,
+[data-theme="dark"] .site-nav-links a:hover { color: var(--accent-dark); }
+[data-theme="dark"] .tag-count { background: #30445c; }
+[data-theme="dark"] .tag-btn.active,
+[data-theme="dark"] .footer-cta {
+  background: #a3c8f5;
+  color: #10243b;
+  border-color: #a3c8f5;
+}
+[data-theme="dark"] .tag-btn.active .tag-count { background: rgba(16, 36, 59, 0.12); }
+[data-theme="dark"] .footer-cta:hover { background: #bdd9fb; color: #10243b; }
+[data-theme="dark"] .venue.accepted,
+[data-theme="dark"] .venue.published { color: #a7deb8; background: #203d30; }
+[data-theme="dark"] .venue.review { color: #edd08c; background: #403620; }
+[data-theme="dark"] .publication-list { scrollbar-color: #62778f transparent; }
+[data-theme="dark"] .publication-list::-webkit-scrollbar-thumb {
+  background: #62778f;
+  border-color: var(--surface);
+}
+/* Keep the institutions' original logo colors readable. */
+[data-theme="dark"] .institution-mark img {
+  padding: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+[data-theme="dark"] .news-institution-icon,
+[data-theme="dark"] .institution-icon {
+  border-radius: 3px;
+  background: #fff;
+}
