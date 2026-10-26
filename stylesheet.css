@@ -898,13 +898,19 @@ a {
   border-top: 1px solid var(--line);
 }
 
-.project-back {
+.project-paper-link {
   display: inline-block;
   margin-top: 36px;
-  padding-bottom: 1px;
-  border-bottom: 1px solid rgba(var(--accent-rgb), 0.4);
+  padding: 8px 16px;
+  border: 1px solid rgba(var(--accent-rgb), 0.35);
+  border-radius: 5px;
   font-size: 0.92rem;
   font-weight: 700;
+}
+
+.project-paper-link:hover,
+.project-paper-link:focus-visible {
+  border-color: var(--accent);
 }
 
 .timeline {
