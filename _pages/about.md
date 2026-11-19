@@ -124,14 +124,13 @@ My longer-term goal is to understand **environment–verifier–memory co-evolut
 </div>
 
 <div class="paper-card">
-<a class="paper-thumb paper-thumb--image" href="/files/detecting_is_not_resolving.pdf" aria-label="Open the Calibration Does Not Certify a Contrast paper PDF"><img src="/images/calibration-contrast-gavel-framework.png" alt="GAVEL identical-pair audit and pair-level correction framework for LLM evaluators" width="1146" height="616" loading="lazy" decoding="async"></a>
+<div class="paper-thumb paper-thumb--image"><img src="/images/calibration-contrast-gavel-framework.png" alt="GAVEL identical-pair audit and pair-level correction framework for LLM evaluators" width="1146" height="616" loading="lazy" decoding="async"></div>
 <div class="paper-content">
-<div class="paper-title"><a href="/files/detecting_is_not_resolving.pdf">Calibration Does Not Certify a Contrast: Identification and Correction for LLM Evaluators</a></div>
+<div class="paper-title">Calibration Does Not Certify a Contrast: Identification and Correction for LLM Evaluators</div>
 <div class="paper-authors"><strong>Zhe Yu*</strong>, Wenpeng Xing*, Chen Ye, Xuyang Teng, Bo Yang, Changting Lin, Meng Han</div>
 <div class="paper-desc">GAVEL shows item calibration cannot validate experimental contrasts: paired audits reveal that Qwen judges greatly overstate a reminder intervention.</div>
 <div class="paper-meta">
 <span class="paper-badge under-review">Under review at AAAI 2027</span>
-<span class="paper-links"><a href="/files/detecting_is_not_resolving.pdf">[PDF]</a></span>
 </div>
 </div>
 </div>
